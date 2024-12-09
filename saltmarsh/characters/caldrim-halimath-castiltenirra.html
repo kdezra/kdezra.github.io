@@ -17,20 +17,7 @@
 	<meta property="og:site_name" content="TTRPG">
 	<script async="" id="webpage-script" src="lib/scripts/webpage.js"
 		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
-	<script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-	<script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
-	<script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
-	<script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
-	<script async="" id="pixi-script" src="lib/scripts/pixi.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
-	<script async="" id="minisearch-script" src="lib/scripts/minisearch.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
 	<link rel="icon" href="lib/media/favicon.png">
-	<script async="" id="graph-data-script" src="lib/scripts/graph-data.js"
-		onload="this.onload=null;this.setAttribute('loaded', 'true')"></script>
 	<style>
 		body {
 			--line-width: 40em;
@@ -339,13 +326,7 @@
 						<path d="M4 13H7"></path>
 					</svg></div>
 			</div>
-			<div class="sidebar-content">
-				<div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false"
-						placeholder="Search...">
-					<div class="search-input-clear-button" aria-label="Clear search"></div>
-				</div>
-				<include src="lib/html/file-tree.html"></include>
-			</div>
+			<div class="sidebar-content"></div>
 			<script
 				defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script>
 		</div>
@@ -2018,23 +1999,7 @@
 						<path d="M4 13H7"></path>
 					</svg></div>
 			</div>
-			<div class="sidebar-content">
-				<div class="graph-view-wrapper">
-					<div class="sidebar-section-header">Interactive Graph</div>
-					<div class="graph-view-placeholder">
-						<div class="graph-view-container">
-							<div class="graph-icon graph-expand" role="button" aria-label="Expand"
-								data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-									height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-									stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
-									<line x1="7" y1="17" x2="17" y2="7"></line>
-									<polyline points="7 7 17 7 17 17"></polyline>
-								</svg></div>
-							<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
-						</div>
-					</div>
-				</div>
-			</div>
+			<div class="sidebar-content"></div>
 			<script
 				defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script>
 		</div>
