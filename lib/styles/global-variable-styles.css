@@ -1,11 +1,39 @@
+:root {
+    --highlight-bg-color: rgba(180, 0, 170, 1);
+    --highlight-selected-bg-color: rgba(0, 100, 0, 1);
+    --annotation-unfocused-field-background: url("data:image/svg+xml; charset=UTF-8,<svg width='1px' height='1px' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill:rgba(0, 54, 255, 0.13); '/></svg>");
+    --input-focus-border-color: Highlight;
+    --input-focus-outline: 1px solid Canvas;
+    --input-unfocused-border-color: transparent;
+    --input-disabled-border-color: transparent;
+    --input-hover-border-color: black;
+    --link-outline: none;
+    --link-weight: 600;
+    --xfa-unfocused-field-background: url("data:image/svg+xml; charset=UTF-8,<svg width='1px' height='1px' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill:rgba(0, 54, 255, 0.13); '/></svg>");
+    --xfa-focus-outline: auto;
+    --viewer-container-height: 0;
+    --pdfViewer-padding-bottom: 0;
+    --page-margin: 1px auto -8px;
+    --page-border: 9px solid transparent;
+    --spreadHorizontalWrapped-margin-LR: -3.5px;
+    --loading-icon-delay: 400ms;
+}
+
 :root body {
-    --line-width: min(60em, calc(100vw - 2em));
-    --line-width-adaptive: min(60em, calc(100vw - 2em));
-    --file-line-width: min(60em, calc(100vw - 2em));
-    --sidebar-width: min(20em, 80vw);
+    --line-width: 40em;
+    --line-width-adaptive: 40em;
+    --file-line-width: 1200px;
+    --collapse-arrow-size: 11px;
+    --tree-horizontal-spacing: 0.6em;
+    --tree-vertical-spacing: 0.6em;
 }
 
 body {
-    --zoom-factor: 0.9128709291752769 !important;
     --font-text-size: 16px;
+}
+
+body.is-phone {
+    --collapse-arrow-size: 13px;
+    --tree-vertical-spacing: 0.8em;
+    --tree-horizontal-spacing: 0.5em;
 }
