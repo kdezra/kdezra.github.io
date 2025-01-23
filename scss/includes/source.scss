@@ -64,7 +64,6 @@
 	$rgb-source-DoD: #fe4935;
 	$rgb-source-MaBJoV: #7a2854;
 	$rgb-source-FTD: #b82a15;
-	$rgb-source-NRH: #bd335b;
 	$rgb-source-SCC: #be9c56;
 	$rgb-source-MPMM: #5c758d;
 	$rgb-source-CRCotN: #ac4a70;
@@ -346,20 +345,6 @@
 
 		&FTD {
 			@include mix-source-color($rgb-source-FTD);
-		}
-
-		&NRH {
-			@include mix-source-color($rgb-source-NRH);
-
-			&-TCMC,
-			&-AVitW,
-			&-ASS,
-			&-CoI,
-			&-TLT,
-			&-AWoL,
-			&-AT {
-				@include mix-source-color($rgb-source-NRH);
-			}
 		}
 
 		&SCC {
