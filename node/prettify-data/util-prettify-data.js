@@ -14,7 +14,6 @@ const FILE_BLOCKLIST = new Set([
 	"renderdemo.json",
 	"sources.json",
 	"fluff-index.json",
-	"changelog.json",
 
 	"index-meta.json",
 	"index-props.json",

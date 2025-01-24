@@ -256,12 +256,6 @@
 		&EFR {
 			@include mix-source-color($rgb-source-ERLW);
 		}
-
-		&RMR,
-		&RMBRE {
-			@include mix-source-color($rgb-source-RMR);
-		}
-
 		&MFF {
 			@include mix-source-color($rgb-source-MFF);
 		}
