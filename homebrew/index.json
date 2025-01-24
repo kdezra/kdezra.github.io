@@ -5,5 +5,14 @@
 		"This file contains as an index for other homebrew files, which should be placed in the same directory.",
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
-	"toImport": []
+	"toImport": [
+		"kibblescastingcompendium.json",
+		"kibblescompendiumoflegendsandlegacies.json",
+		"kibblesgenericelementalspells.json",
+		"kibblesspellblade.json",
+		"kibblesoccultist.json",
+		"kibbleswarlord.json",
+		"kibblesinventor.json",
+		"kibblespsion.json"
+	]
 }
