@@ -1,0 +1,58 @@
+{
+	"manifest_version": 2,
+	"default_locale": "en",
+	"name": "kdezra's 5etools",
+	"short_name": "kdezra's 5etools",
+	"description": "A suite of browser-based tools for 5th Edition  Dungeons & Dragons players and Dungeon Masters.",
+	"icons": [
+		{
+			"src": "icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "icon-180.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "maskable_icon.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Classes",
+			"url": "/classes.html"
+		},
+		{
+			"name": "Spells",
+			"url": "/spells.html"
+		},
+		{
+			"name": "Bestiary",
+			"url": "/bestiary.html"
+		},
+		{
+			"name": "Items",
+			"url": "/items.html"
+		},
+		{
+			"name": "Feats",
+			"url": "/feats.html"
+		},
+		{
+			"name": "Races",
+			"url": "/races.html"
+		}
+	],
+	"start_url": "index.html",
+	"background_color": "#1c1b22",
+	"display": "standalone",
+	"theme_color": "#1c1b22",
+	"permissions": [
+		"clipboardWrite"
+	]
+}

@@ -1,0 +1,45 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="{{pageDescription}}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="robots" content="noindex">
+
+	<title>{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+{{#if isFontAwesome}}	<link rel="stylesheet" href="css/fontawesome.css">
+{{/if}}
+	<link rel="stylesheet" href="css/main.css">
+{{#each stylesheets}}	<link rel="stylesheet" href="css/{{this}}.css">
+{{/each}}
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/x-icon" sizes="128x128" href="favicon.ico" />
+
+	<!-- Chrome Web App Icons -->
+	<link rel="manifest" href="manifest.webmanifest" />
+	<meta name="application-name" content="5etools" />
+	<meta name="theme-color" content="#1c1b22" />
+
+	<!-- Windows Start Menu tiles -->
+	<meta name="msapplication-config" content="browserconfig.xml" />
+	<meta name="msapplication-TileColor" content="#1c1b22" />
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png" />
+	<link rel="android-touch-icon" sizes="192x192" href="icon-192.png" />
+	<meta name="apple-mobile-web-app-title" content="kdezra's 5etools" />
+
+	<!-- OpenSearch -->
+	<link rel="search" href="open-search.xml" title="Search 5etools" type="application/opensearchdescription+xml">
+	
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+{{#if redirectHref}}
+	<meta http-equiv="refresh" content="0; URL={{redirectHref}}"/>
+{{else}}
+	<script type="text/javascript" src="js/navigation.js"></script>
+	<script type="text/javascript" src="js/browsercheck.js"></script>
+{{/if}}
+</head>
