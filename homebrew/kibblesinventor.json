@@ -2697,7 +2697,7 @@
 				}
 			],
 			"entries": [
-				"When you take damage while under the effects of {@spell mage armor}, you can end the effects of that spell as a reaction to cast {@spell turbulent warp|ktp} without expending a spell slot.",
+				"When you take damage while under the effects of {@spell mage armor}, you can end the effects of that spell as a reaction to cast {@spell turbulent warp|KT-PCB} without expending a spell slot.",
 				"Once you cast the spell in this way, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -5569,7 +5569,7 @@
 				}
 			],
 			"entries": [
-				"You store up kinetic energy, and unleash it in a mighty bound. As an action, you can jump up to your entire movement speed and cast {@spell shockwave|ktp} without expending a spell slot or charges upon landing.",
+				"You store up kinetic energy, and unleash it in a mighty bound. As an action, you can jump up to your entire movement speed and cast {@spell shockwave|KT-PCB} without expending a spell slot or charges upon landing.",
 				"Once you use this upgrade, you cannot use it again until you complete a long rest."
 			]
 		},
@@ -6270,7 +6270,7 @@
 						],
 						[
 							"9",
-							"{@spell invest life|ktp}, {@spell vampiric touch}"
+							"{@spell invest life|KT-PCB}, {@spell vampiric touch}"
 						],
 						[
 							"13",
@@ -6514,7 +6514,7 @@
 				}
 			],
 			"entries": [
-				"You can share your considerable vitality with other creatures. You are a generous person, after all. You learn the spell {@spell invest life|ktp}, and you can cast {@spell invest life|ktp} without expending a spell slot. Once you cast in this way, you can't cast it again with this upgrade until you finish a short or long rest."
+				"You can share your considerable vitality with other creatures. You are a generous person, after all. You learn the spell {@spell invest life|KT-PCB}, and you can cast {@spell invest life|KT-PCB} without expending a spell slot. Once you cast in this way, you can't cast it again with this upgrade until you finish a short or long rest."
 			]
 		},
 		{
@@ -6660,7 +6660,7 @@
 				}
 			],
 			"entries": [
-				"You hunger for missing vitality. After casting {@spell invest life|ktp} the first time you damage a living creature within the next minute, you deal an additional {@dice 3d8} necrotic damage, and regain hit points equal to the necrotic damage dealt."
+				"You hunger for missing vitality. After casting {@spell invest life|KT-PCB} the first time you damage a living creature within the next minute, you deal an additional {@dice 3d8} necrotic damage, and regain hit points equal to the necrotic damage dealt."
 			]
 		},
 		{
@@ -7313,7 +7313,7 @@
 			],
 			"entries": [
 				"After tinkering with the properties of your Artifact, you can hear it... whisper. You can hear that too, right? You gain the ability to cast {@spell guidance} and {@spell message}, but the message is always delivered in a haunting, unearthly, or creepy voice.",
-				"You can amplify these whispers to cast {@spell terrifying visions|ktp} without expending a spell slot. Once you do so, you can't do so again until you finish a short or long rest."
+				"You can amplify these whispers to cast {@spell terrifying visions|KT-PCB} without expending a spell slot. Once you do so, you can't do so again until you finish a short or long rest."
 			]
 		},
 		{
@@ -8475,7 +8475,7 @@
 						],
 						[
 							"Rune of Blood",
-							"{@spell invest life|ktp}"
+							"{@spell invest life|KT-PCB}"
 						]
 					]
 				},
@@ -13357,7 +13357,7 @@
 								],
 								[
 									"17th",
-									"{@spell shockwave|ktp}"
+									"{@spell shockwave|KT-PCB}"
 								]
 							]
 						}
@@ -13439,7 +13439,7 @@
 								],
 								[
 									"9th",
-									"{@spell invest life|ktp}"
+									"{@spell invest life|KT-PCB}"
 								],
 								[
 									"13th",

@@ -1993,7 +1993,7 @@
 							"type": "entries",
 							"name": "Enhancement",
 							"entries": [
-								"You can bring out the inner strength of yourself and others. You gain proficiency in {@skill Athletics} and gain access to the {@optfeature Enhancement Discipline|ktp|Enhancing Skill} psionic power."
+								"You can bring out the inner strength of yourself and others. You gain proficiency in {@skill Athletics} and gain access to the {@optfeature Enhancement Discipline|KT-PCB|Enhancing Skill} psionic power."
 							]
 						}
 					]
@@ -2005,7 +2005,7 @@
 							"type": "entries",
 							"name": "Precognition",
 							"entries": [
-								"You can see flashes of the future. You gain proficiency in {@skill Perception} and gain access to the {@optfeature Precognition Discipline|ktp|Prescience} psionic power."
+								"You can see flashes of the future. You gain proficiency in {@skill Perception} and gain access to the {@optfeature Precognition Discipline|KT-PCB|Prescience} psionic power."
 							]
 						}
 					]
@@ -2017,7 +2017,7 @@
 							"type": "entries",
 							"name": "Telepathy",
 							"entries": [
-								"Other minds are an open book to you. You gain proficiency in {@skill Insight} skill and gain access to the {@optfeature Telepathy Discipline|ktp|Telepathic Communication} psionic power."
+								"Other minds are an open book to you. You gain proficiency in {@skill Insight} skill and gain access to the {@optfeature Telepathy Discipline|KT-PCB|Telepathic Communication} psionic power."
 							]
 						}
 					]
@@ -2041,10 +2041,10 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd, your gift evolves to a full expression of your powers. You gain the access to the full Discipline (including alternate effect spells) associated with your Gift ({@optfeature Enhancement Discipline|ktp|Enhancement}, {@optfeature Precognition Discipline|ktp|Precognition}, or {@optfeature Telepathy Discipline|ktp|Telepathy}).",
+				"Starting at 3rd, your gift evolves to a full expression of your powers. You gain the access to the full Discipline (including alternate effect spells) associated with your Gift ({@optfeature Enhancement Discipline|KT-PCB|Enhancement}, {@optfeature Precognition Discipline|KT-PCB|Precognition}, or {@optfeature Telepathy Discipline|KT-PCB|Telepathy}).",
 				"You can use Leadership Dice as Psi Points, with a limit of 1 Leadership Die. This limit increases to 2 Leadership Dice at level 5, 3 Leadership Dice at level 9, 4 Leadership Dice at level 14, and 5 Leadership Dice at level 17.",
 				"Your Psionic Ability modifier is Intelligence.",
-				"Refer to the {@classFeature Psionics|Psion|ktp|1} feature for the rules governing psionic disciplines.",
+				"Refer to the {@classFeature Psionics|Psion|KT-PCB|1} feature for the rules governing psionic disciplines.",
 				{
 					"type": "abilityDc",
 					"name": "Psionic",

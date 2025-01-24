@@ -4866,14 +4866,14 @@
 			"shortName": "Knowing",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"page": 148,
 			"subclassFeatures": [
-				"Knowing Mind|Psion|ktp|Knowing|KCLL|1|KCLL",
-				"Climactic Moment|Psion|ktp|Knowing|KCLL|3",
-				"Thread of Fate|Psion|ktp|Knowing|KCLL|6",
-				"Window of Opportunity|Psion|ktp|Knowing|KCLL|10",
-				"Mastermind|Psion|ktp|Knowing|KCLL|14"
+				"Knowing Mind|Psion|KT-PCB|Knowing|KCLL|1|KCLL",
+				"Climactic Moment|Psion|KT-PCB|Knowing|KCLL|3",
+				"Thread of Fate|Psion|KT-PCB|Knowing|KCLL|6",
+				"Window of Opportunity|Psion|KT-PCB|Knowing|KCLL|10",
+				"Mastermind|Psion|KT-PCB|Knowing|KCLL|14"
 			]
 		}
 	],
@@ -5676,7 +5676,7 @@
 			"name": "Knowing Mind",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 1,
@@ -5719,11 +5719,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Forewarned|Psion|ktp|Knowing|KCLL|1|KCLL"
+					"subclassFeature": "Forewarned|Psion|KT-PCB|Knowing|KCLL|1|KCLL"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Practiced Prescience|Psion|ktp|Knowing|KCLL|1|KCLL"
+					"subclassFeature": "Practiced Prescience|Psion|KT-PCB|Knowing|KCLL|1|KCLL"
 				},
 				{
 					"type": "section",
@@ -5776,7 +5776,7 @@
 			"name": "Forewarned",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 1,
@@ -5789,7 +5789,7 @@
 			"name": "Practiced Prescience",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 1,
@@ -5802,7 +5802,7 @@
 			"name": "Climactic Moment",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 3,
@@ -5826,7 +5826,7 @@
 			"name": "Thread of Fate",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 6,
@@ -5840,7 +5840,7 @@
 			"name": "Window of Opportunity",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 10,
@@ -5854,7 +5854,7 @@
 			"name": "Mastermind",
 			"source": "KCLL",
 			"className": "Psion",
-			"classSource": "ktp",
+			"classSource": "KT-PCB",
 			"subclassShortName": "Knowing",
 			"subclassSource": "KCLL",
 			"level": 14,
@@ -5944,7 +5944,7 @@
 									"rows": [
 										[
 											"1st",
-											"{@spell terrifying visions|ktp}"
+											"{@spell terrifying visions|KT-PCB}"
 										],
 										[
 											"3rd",
@@ -21274,6 +21274,16 @@
 			"page": 207,
 			"level": 1,
 			"school": "C",
+			"otherSources": [
+				{
+					"source": "KGES",
+					"page": 5
+				},
+				{
+					"source": "KCC",
+					"page": 8
+				}
+			],
 			"time": [
 				{
 					"number": 1,
@@ -38824,7 +38834,7 @@
 			"page": 271,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 1,
@@ -38862,14 +38872,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Telepathy Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -38880,7 +38890,7 @@
 			"page": 14,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 3,
@@ -38932,14 +38942,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Telepathy Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -38950,7 +38960,7 @@
 			"page": 271,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 1,
@@ -38989,14 +38999,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Transposition Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39007,7 +39017,7 @@
 			"page": 271,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 1,
@@ -39042,14 +39052,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Precognition Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39060,7 +39070,7 @@
 			"page": 271,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 2,
@@ -39141,14 +39151,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Precognition Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39159,7 +39169,7 @@
 			"page": 272,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 8,
@@ -39217,7 +39227,7 @@
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39228,7 +39238,7 @@
 			"page": 273,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 6,
@@ -39273,7 +39283,7 @@
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39284,7 +39294,7 @@
 			"page": 274,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 2,
@@ -39329,7 +39339,7 @@
 			"optionalfeatures": [
 				{
 					"name": "Nullification Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"areaTags": [
@@ -39342,7 +39352,7 @@
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39353,7 +39363,7 @@
 			"page": 273,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 2,
@@ -39404,7 +39414,7 @@
 			"optionalfeatures": [
 				{
 					"name": "Consumption Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"damageInflict": [
@@ -39414,7 +39424,7 @@
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39425,7 +39435,7 @@
 			"page": 273,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 1,
@@ -39472,14 +39482,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Telekinesis Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39490,7 +39500,7 @@
 			"page": 273,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 5,
@@ -39544,7 +39554,7 @@
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}
@@ -39555,7 +39565,7 @@
 			"page": 273,
 			"otherSources": [
 				{
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"level": 1,
@@ -39595,14 +39605,14 @@
 			"optionalfeatures": [
 				{
 					"name": "Enhancement Discipline",
-					"source": "ktp"
+					"source": "KT-PCB"
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Psion",
-						"source": "ktp"
+						"source": "KT-PCB"
 					}
 				]
 			}

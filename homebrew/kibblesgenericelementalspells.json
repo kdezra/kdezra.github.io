@@ -139,8 +139,18 @@
 			"entries": [
 				"You create a bubble of acid that floats to the target point before bursting a shower of acid. All creatures and objects within a 5-foot-radius sphere must make a Dexterity saving throw. On failure they take {@damage 3d4} acid damage, or half as much on a successful save."
 			],
-			"source": "",
+			"source": "KGES",
 			"page": 5,
+			"otherSources": [
+				{
+					"source": "KCLL",
+					"page": 207
+				},
+				{
+					"source": "KCC",
+					"page": 8
+				}
+			],
 			"damageInflict": [
 				"acid"
 			],
