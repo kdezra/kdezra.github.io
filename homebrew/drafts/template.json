@@ -1,0 +1,132 @@
+
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "<abbr>",
+				"abbreviation": "<abbr>",
+				"full": "<fullname>", 
+				"authors": [
+					"<author>"
+				],
+				"convertedBy": [
+					"kdezra"
+				],
+				"version": "<versionnumasstr>",
+				"url": "<url>",
+				"color": "<hexcode>"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"edition": "classic",
+		"status": "wip"
+	},
+	"action": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Action"],
+	"background": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Background"],
+	"boon": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Boon"],
+	"class": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Class"],
+	"condition": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Condition"],
+	"cult": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Cult"],
+	"deity": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"disease": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"feat": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"hazard": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"item": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"language": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"object": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"optionalfeature": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"race": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"reward": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"subclass": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"table": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"variantrule": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"vehicle": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"spell": [
+		{
+			"name": "<spellname>",
+			"source": "<abbr>",
+			"page": 0,
+			"level": 0,
+			"school": "<Enc|eVo|Con|Tra|Ill|Nec|Abj|Div>",
+			"subschools": [
+				"<subschool>"
+			],
+			"time": [
+				{
+					"number": 0,
+					"unit": "<timeunit>"
+				}
+			],
+			"range": {
+				"type": "<range>"
+			},
+			"components": {
+				"v": false,
+				"s": false,
+				"m": "<false|material>"
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"<athigherlevels>"
+					]
+				}
+			],
+			"duration": [
+				{
+					"type": "<type>",
+					"duration": {
+						"type": "<timedurationunit>",
+						"amount": 0
+					}
+				}
+			],
+			"entries": [
+				"<entrylistitem>"
+			],
+			"damageInflict": [
+				"<damagetype>"
+			],
+			"savingThrow": [
+				"<save>"
+			],
+			"areaTags": [
+				"<tag>"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "<classname>",
+						"source": "<sourceabbr>"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "<classname>",
+							"source": "<sourceabbr>"
+						},
+						"subclass": {
+							"name": "<classname>",
+							"shortName": "<shortclassname>",
+							"source": "<sourceabbr>"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "<racename>",
+					"source": "<sourceabbr>",
+					"baseName": "<baseracename>",
+					"baseSource": "<sourceabbr>"
+				}
+			]
+		}
+	]
+}
+

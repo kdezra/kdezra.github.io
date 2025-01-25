@@ -1,0 +1,99 @@
+
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "<abbr>",
+				"abbreviation": "<abbr>",
+				"full": "Spectre Creations", 
+				"authors": [
+					"Spectre Creations"
+				],
+				"convertedBy": [
+					"kdezra"
+				],
+				"version": "<versionnumasstr>",
+				"url": "https://www.spectrecreations.com/",
+				"color": "977916"
+			}
+		],
+		"dateAdded": 1737750245,
+		"dateLastModified": 1737750245,
+		"edition": "classic",
+		"status": "wip"
+	},
+	"spell": [
+		{
+			"name": "Star Splinter",
+			"source": "<abbr>",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 0,
+					"unit": "<timeunit>"
+				}
+			],
+			"range": {
+				"type": "<range>"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "<false|material>"
+			},
+			"duration": [
+				{
+					"type": "<type>",
+					"duration": {
+						"type": "<timedurationunit>",
+						"amount": 0
+					}
+				}
+			],
+			"entries": [
+				"<entrylistitem>"
+			],
+			"damageInflict": [
+				"<damagetype>"
+			],
+			"savingThrow": [
+				"<save>"
+			],
+			"areaTags": [
+				"<tag>"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "<classname>",
+						"source": "<sourceabbr>"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "<classname>",
+							"source": "<sourceabbr>"
+						},
+						"subclass": {
+							"name": "<classname>",
+							"shortName": "<shortclassname>",
+							"source": "<sourceabbr>"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "<racename>",
+					"source": "<sourceabbr>",
+					"baseName": "<baseracename>",
+					"baseSource": "<sourceabbr>"
+				}
+			]
+		}
+	]
+}
+

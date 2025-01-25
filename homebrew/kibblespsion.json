@@ -16,7 +16,8 @@
 					"p4535992",
 					"mechanicBovine",
 					"carboardvinyl",
-					"hightouch"
+					"hightouch",
+					"kdezra"
 				],
 				"version": "1.5.3",
 				"url": "https://www.kthomebrew.com/s/Psion-153-Compressed.pdf"
@@ -26,6 +27,11 @@
 			"PsiD": "Psionic Discipline",
 			"PsiT": "Psionic Talent",
 			"PsiP": "Psionic Power"
+		},
+		"dependencies": {
+			"spell": [
+				"KCC"
+			]
 		},
 		"status": "ready",
 		"dateAdded": 1559943252,
@@ -287,7 +293,7 @@
 				"Harm|phb",
 				"Mass Suggestion|phb",
 				"Mental Prison|xge",
-				"Mind Blast|KT-PCB",
+				"Mind Blast|KCC",
 				"Scatter|xge",
 				"Crown of Stars|xge",
 				"Etherealness|phb",
@@ -303,7 +309,7 @@
 				"Dominate Monster|phb",
 				"Earthquake|phb",
 				"Feeblemind|phb",
-				"Inner World|KT-PCB",
+				"Inner World|KCC",
 				"Maddening Darkness|xge",
 				"Mind Blank|phb",
 				"Power Word Stun|phb",
@@ -555,7 +561,7 @@
 		{
 			"name": "Compelled Query",
 			"reprintedAs": [
-				"Compelled Query|KT-CLL"
+				"Compelled Query|KCLL"
 			],
 			"level": 1,
 			"school": "P",
@@ -609,7 +615,7 @@
 		{
 			"name": "Delve Mind",
 			"reprintedAs": [
-				"Delve Mind|KT-CLL"
+				"Delve Mind|KCLL"
 			],
 			"level": 3,
 			"school": "P",
@@ -677,7 +683,7 @@
 		{
 			"name": "Flicker",
 			"reprintedAs": [
-				"Flicker|KT-CLL"
+				"Flicker|KCLL"
 			],
 			"level": 1,
 			"school": "P",
@@ -732,7 +738,7 @@
 		{
 			"name": "Future Insight",
 			"reprintedAs": [
-				"Future Insight|KT-CLL"
+				"Future Insight|KCLL"
 			],
 			"level": 1,
 			"school": "P",
@@ -783,7 +789,7 @@
 		{
 			"name": "Glimpse the Future",
 			"reprintedAs": [
-				"Glimpse the Future|KT-CLL"
+				"Glimpse the Future|KCLL"
 			],
 			"level": 2,
 			"school": "P",
@@ -880,7 +886,7 @@
 		{
 			"name": "Inner World",
 			"reprintedAs": [
-				"Inner World|KT-CLL"
+				"Inner World|KCLL"
 			],
 			"level": 8,
 			"school": "P",
@@ -991,7 +997,7 @@
 		{
 			"name": "Invest Life",
 			"reprintedAs": [
-				"Invest Life|KT-CLL"
+				"Invest Life|KCLL"
 			],
 			"level": 3,
 			"school": "P",
@@ -1076,7 +1082,7 @@
 				"fromClassList": [
 					{
 						"name": "Inventor",
-						"source": "KibbleInventor"
+						"source": "KT-ICB"
 					}
 				]
 			},
@@ -1119,7 +1125,7 @@
 		{
 			"name": "Mind Blast",
 			"reprintedAs": [
-				"Mind Blast|KT-CLL"
+				"Mind Blast|KCLL"
 			],
 			"level": 6,
 			"school": "P",
@@ -1173,7 +1179,7 @@
 		{
 			"name": "Nullify Effect",
 			"reprintedAs": [
-				"Nullify Effect|KT-CLL"
+				"Nullify Effect|KCLL"
 			],
 			"level": 2,
 			"school": "P",
@@ -1240,7 +1246,7 @@
 		{
 			"name": "Psychic Drain",
 			"reprintedAs": [
-				"Psychic Drain|KT-CLL"
+				"Psychic Drain|KCLL"
 			],
 			"level": 2,
 			"school": "P",
@@ -1310,7 +1316,7 @@
 		{
 			"name": "Shockwave",
 			"reprintedAs": [
-				"Shockwave|KT-CLL"
+				"Shockwave|KCLL"
 			],
 			"level": 1,
 			"school": "P",
@@ -1501,7 +1507,7 @@
 		{
 			"name": "Unlocked Potential",
 			"reprintedAs": [
-				"Unlocked Potential|KT-CLL"
+				"Unlocked Potential|KCLL"
 			],
 			"level": 1,
 			"school": "P",

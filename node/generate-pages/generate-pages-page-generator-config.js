@@ -241,34 +241,6 @@ class _PageGeneratorMakecards extends PageGeneratorGeneric {
 	];
 }
 
-class _PageGeneratorPlutonium extends PageGeneratorGeneric {
-	_filename = "page/template-page-plutonium.hbs";
-	_page = "plutonium.html";
-
-	_pageTitle = "Plutonium Features";
-	_navbarDescription = "An overview of the 5etools integration for Foundry VTT.";
-
-	_stylesheets = [
-		"plutonium",
-	];
-
-	_scriptsModules = [
-		"plutonium.js",
-	];
-}
-
-class _PageGeneratorPrivacyPolicy extends PageGeneratorGeneric {
-	_filename = "page/template-page-privacy-policy.hbs";
-	_page = "privacy-policy.html";
-
-	_pageTitle = "Privacy Policy";
-	_navbarDescription = `Just click "Accept."`;
-
-	_scripts = [
-		"privacy-policy.js",
-	];
-}
-
 class _PageGeneratorRenderdemo extends PageGeneratorGeneric {
 	_filename = "page/template-page-renderdemo.hbs";
 	_page = "renderdemo.html";
