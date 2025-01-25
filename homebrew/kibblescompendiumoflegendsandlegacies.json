@@ -11,7 +11,8 @@
 					"KibblesTasty"
 				],
 				"convertedBy": [
-					"grapitygrape"
+					"grapitygrape",
+					"kdezra"
 				],
 				"version": "1.0",
 				"url": "https://www.kthomebrew.com",
@@ -25,7 +26,8 @@
 					"The Arena Guy"
 				],
 				"convertedBy": [
-					"grapitygrape"
+					"grapitygrape",
+					"kdezra"
 				],
 				"version": "1",
 				"url": "https://www.reddit.com/r/UnearthedArcana/comments/e00nu6/aldricors_elemental_rebuke_retaliate_against_your/"
@@ -624,7 +626,7 @@
 				"Calm Emotions",
 				"clay touch|KCLL",
 				"crackle|KCLL",
-				"dancing objects (animate object)|KCLL",
+				"Dancing Objects (Animate Object)|KCC",
 				"dancing wave|KCLL",
 				"Darkness",
 				"Darkvision",
@@ -1331,8 +1333,8 @@
 				"Resistance",
 				"Shocking Grasp",
 				"True Strike",
-				"Water Bullet|KCLL",
-				"Acid Bubble|KCLL",
+				"Water Bullet|KCC",
+				"Acid Bubble|KCC",
 				"Alarm",
 				"Aldricor's Elemental Rebuke|KCLL",
 				"Arcane Ablation|KCLL",
@@ -20755,12 +20757,13 @@
 	"spell": [
 		{
 			"name": "Befuddling Curse",
+			"reprintedAs": [ "Befuddling Curse|KCC" ],
 			"source": "KCLL",
 			"page": 19,
 			"level": 1,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -20811,12 +20814,19 @@
 		},
 		{
 			"name": "Binding Curse",
+			"reprintedAs": [ "Binding Curse|KCC" ],
 			"source": "KCLL",
 			"page": 19,
 			"level": 1,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
+			],
+			"otherSources": [
+				{
+					"source": "KCC",
+					"page": 13
+				}
 			],
 			"time": [
 				{
@@ -20873,7 +20883,7 @@
 			"level": 1,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -20930,7 +20940,7 @@
 			"level": 3,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -20992,7 +21002,7 @@
 			"level": 5,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -21047,7 +21057,7 @@
 			"level": 3,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -21100,12 +21110,13 @@
 		},
 		{
 			"name": "Killing Curse",
+			"reprintedAs": [ "Killing Curse|KCC" ],
 			"source": "KCLL",
 			"page": 20,
 			"level": 5,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -21157,12 +21168,13 @@
 		},
 		{
 			"name": "Rotting Curse",
+			"reprintedAs": [ "Rotting Curse|KCC" ],
 			"source": "KCLL",
 			"page": 20,
 			"level": 1,
 			"school": "N",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -21213,12 +21225,13 @@
 		},
 		{
 			"name": "Swapping Curse",
+			"reprintedAs": [ "Swapping Curse|KCC" ],
 			"source": "KCLL",
 			"page": 20,
 			"level": 5,
 			"school": "E",
 			"subschools": [
-				"Curse"
+				"curse"
 			],
 			"time": [
 				{
@@ -21270,6 +21283,7 @@
 		},
 		{
 			"name": "Acid Bubble",
+			"reprintedAs": [ "Acid Bubble|KCC" ],
 			"source": "KCLL",
 			"page": 207,
 			"level": 1,
@@ -21355,6 +21369,7 @@
 		},
 		{
 			"name": "Acid Rain",
+			"reprintedAs": [ "Acid Rain|KCC" ],
 			"source": "KCLL",
 			"page": 207,
 			"level": 5,
@@ -21423,6 +21438,7 @@
 		},
 		{
 			"name": "Acidic Pit",
+			"reprintedAs": [ "Acidic Pit|KCC" ],
 			"source": "KCLL",
 			"page": 207,
 			"level": 3,
@@ -21493,6 +21509,7 @@
 		},
 		{
 			"name": "Aero Barrage",
+			"reprintedAs": [ "Aero Barrage|KCC" ],
 			"source": "KCLL",
 			"page": 207,
 			"level": 4,
@@ -21564,6 +21581,7 @@
 		},
 		{
 			"name": "Aether Lance",
+			"reprintedAs": [ "Aether Lance|KCC" ],
 			"source": "KCLL",
 			"page": 207,
 			"level": 3,
@@ -21630,6 +21648,7 @@
 		},
 		{
 			"name": "Aether Storm",
+			"reprintedAs": [ "Aether Storm|KCC" ],
 			"source": "KCLL",
 			"page": 208,
 			"level": 5,
@@ -21704,6 +21723,7 @@
 		},
 		{
 			"name": "Alacrity",
+			"reprintedAs": [ "Alacrity|KCC" ],
 			"source": "KCLL",
 			"page": 208,
 			"level": 2,
@@ -21774,8 +21794,8 @@
 		},
 		{
 			"name": "Aldricor's Elemental Rebuke",
-			"source": "TheArenaGuy",
-			"level": 208,
+			"source": "SC-CCR",
+			"page": 208,
 			"school": "V",
 			"components": {
 				"s": true
@@ -21820,7 +21840,7 @@
 					"type": "inset",
 					"name": "TAG Credit",
 					"entries": [
-						"Aldricor's Elemental Rebuke is drawn from TheArenaGuy's (Spectre Creations) Caliya's Chronicle of Runes."
+						"Aldricor's Elemental Rebuke is drawn from Spectre Creations Caliya's Chronicle of Runes."
 					]
 				}
 			],
@@ -21842,6 +21862,7 @@
 		},
 		{
 			"name": "Angelic Slash",
+			"reprintedAs": [ "Angelic Slash|KCC" ],
 			"source": "KCLL",
 			"page": 208,
 			"level": 3,
@@ -21907,6 +21928,7 @@
 		},
 		{
 			"name": "Animate Shadow",
+			"reprintedAs": [ "Animate Shadow|KCC" ],
 			"source": "KCLL",
 			"page": 208,
 			"level": 3,
@@ -21967,6 +21989,7 @@
 		},
 		{
 			"name": "Anvil Drop",
+			"reprintedAs": [ "Anvil Drop|KCC" ],
 			"source": "KCLL",
 			"page": 209,
 			"level": 5,
@@ -22036,6 +22059,7 @@
 		},
 		{
 			"name": "Arcane Ablation",
+			"reprintedAs": [ "Arcane Ablation|KCC" ],
 			"source": "KCLL",
 			"page": 209,
 			"level": 1,
@@ -22104,6 +22128,7 @@
 		},
 		{
 			"name": "Arcane Conduit",
+			"reprintedAs": [ "Arcane Conduit|KCC" ],
 			"source": "KCLL",
 			"page": 209,
 			"level": 2,
@@ -22152,6 +22177,7 @@
 		},
 		{
 			"name": "Arcane Weapon",
+			"reprintedAs": [ "Arcane Weapon|KCC" ],
 			"source": "KCLL",
 			"page": 210,
 			"level": 1,
@@ -22219,6 +22245,7 @@
 		},
 		{
 			"name": "Arcanist's Sword",
+			"reprintedAs": [ "Arcanist's Sword|KCC" ],
 			"source": "KCLL",
 			"page": 210,
 			"level": 7,
@@ -22312,6 +22339,7 @@
 		},
 		{
 			"name": "Arctic Aura",
+			"reprintedAs": [ "Arctic Aura|KCC" ],
 			"source": "KCLL",
 			"page": 210,
 			"level": 3,
@@ -22395,6 +22423,7 @@
 		},
 		{
 			"name": "Arctic Breath",
+			"reprintedAs": [ "Arctic Breath|KCC" ],
 			"source": "KCLL",
 			"page": 210,
 			"level": 1,
@@ -22468,6 +22497,7 @@
 		},
 		{
 			"name": "Avalanche",
+			"reprintedAs": [ "Avalanche|KCC" ],
 			"source": "KCLL",
 			"page": 211,
 			"level": 6,
@@ -22542,6 +22572,7 @@
 		},
 		{
 			"name": "Awaken Rope",
+			"reprintedAs": [ "Awaken Rope|KCC" ],
 			"source": "KCLL",
 			"page": 211,
 			"level": 1,
@@ -22633,6 +22664,7 @@
 		},
 		{
 			"name": "Baba's Walking Hut",
+			"reprintedAs": [ "Baba's Walking Hut|KCC" ],
 			"source": "KCLL",
 			"page": 211,
 			"level": 6,
@@ -22688,6 +22720,7 @@
 		},
 		{
 			"name": "Bad Blood",
+			"reprintedAs": [ "Bad Blood|KCC" ],
 			"source": "KCLL",
 			"page": 212,
 			"level": 1,
@@ -22777,6 +22810,7 @@
 		},
 		{
 			"name": "Beam of Annihilation",
+			"reprintedAs": [ "Beam of Annihilation|KCC" ],
 			"source": "KCLL",
 			"page": 212,
 			"level": 6,
@@ -22830,6 +22864,7 @@
 		},
 		{
 			"name": "Become Fire",
+			"reprintedAs": [ "Become Fire|KCC" ],
 			"source": "KCLL",
 			"page": 212,
 			"level": 2,
@@ -22896,6 +22931,7 @@
 		},
 		{
 			"name": "Become Stone",
+			"reprintedAs": [ "Become Stone|KCC" ],
 			"source": "KCLL",
 			"page": 212,
 			"level": 2,
@@ -22980,6 +23016,7 @@
 		},
 		{
 			"name": "Become Water",
+			"reprintedAs": [ "Become Water|KCC" ],
 			"source": "KCLL",
 			"page": 213,
 			"level": 2,
@@ -23064,6 +23101,7 @@
 		},
 		{
 			"name": "Become Wind",
+			"reprintedAs": [ "Become Wind|KCC" ],
 			"source": "KCLL",
 			"page": 213,
 			"level": 2,
@@ -23142,6 +23180,7 @@
 		},
 		{
 			"name": "Befuddling Curse",
+			"reprintedAs": [ "Befuddling Curse|KCC" ],
 			"source": "KCLL",
 			"page": 213,
 			"level": 1,
@@ -23259,61 +23298,8 @@
 			}
 		},
 		{
-			"name": "Binding Curse",
-			"source": "KCLL",
-			"page": 214,
-			"level": 1,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "something from the target creature—such as blood, hair, or scales—which the spell consumes",
-					"consume": true
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You bind a creature to a point within 5 feet of it, causing glowing chains of light to connect it to that point. For the duration of the spell, if the creature attempts to move away from the point, it must succeed on a Wisdom saving throw or be unable to move more than 5 feet away from the point until the start of its next turn.",
-				"If the target starts its turn more than 10 feet from the binding point, it must succeed on a Strength saving throw or be dragged 5 feet toward the binding point."
-			],
-			"savingThrow": [
-				"wisdom",
-				"strength"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Occultist",
-						"source": "KCLL"
-					}
-				]
-			}
-		},
-		{
 			"name": "Blackhole",
+			"reprintedAs": [ "Blackhole|KCC" ],
 			"source": "KCLL",
 			"page": 214,
 			"level": 9,
@@ -23376,6 +23362,7 @@
 		},
 		{
 			"name": "Blade Mirage",
+			"reprintedAs": [ "Blade Mirage|KCC" ],
 			"source": "KCLL",
 			"page": 214,
 			"level": 1,
@@ -23576,6 +23563,7 @@
 		},
 		{
 			"name": "Blazing Beacon",
+			"reprintedAs": [ "Blazing Beacon|KCC" ],
 			"source": "KCLL",
 			"page": 215,
 			"level": 2,
@@ -23635,6 +23623,7 @@
 		},
 		{
 			"name": "Blizzard",
+			"reprintedAs": [ "Blizzard|KCC" ],
 			"source": "KCLL",
 			"page": 215,
 			"level": 6,
@@ -23714,6 +23703,7 @@
 		},
 		{
 			"name": "Boil Blood",
+			"reprintedAs": [ "Boil Blood|KCC" ],
 			"source": "KCLL",
 			"page": 215,
 			"level": 2,
@@ -23779,6 +23769,7 @@
 		},
 		{
 			"name": "Bond Item",
+			"reprintedAs": [ "Bond Item|KCC" ],
 			"source": "KCLL",
 			"page": 216,
 			"level": 1,
@@ -23837,6 +23828,7 @@
 		},
 		{
 			"name": "Bramble Barrier",
+			"reprintedAs": [ "Bramble Barrier|KCC" ],
 			"source": "KCLL",
 			"page": 216,
 			"level": 3,
@@ -23897,6 +23889,7 @@
 		},
 		{
 			"name": "Bramble Binding",
+			"reprintedAs": [ "Bramble Binding|KCC" ],
 			"source": "KCLL",
 			"page": 216,
 			"level": 1,
@@ -23957,6 +23950,7 @@
 		},
 		{
 			"name": "Brilliant Blade",
+			"reprintedAs": [ "Brilliant Blade|KCC" ],
 			"source": "KCLL",
 			"page": 216,
 			"level": 3,
@@ -24008,6 +24002,7 @@
 		},
 		{
 			"name": "Burial Barrage",
+			"reprintedAs": [ "Burial Barrage|KCC" ],
 			"source": "KCLL",
 			"page": 217,
 			"level": 5,
@@ -24085,6 +24080,7 @@
 		},
 		{
 			"name": "Burn",
+			"reprintedAs": [ "Burn|KCC" ],
 			"source": "KCLL",
 			"page": 217,
 			"level": 0,
@@ -24155,6 +24151,7 @@
 		},
 		{
 			"name": "Burning Strike",
+			"reprintedAs": [ "Burning Strike|KCC" ],
 			"source": "KCLL",
 			"page": 217,
 			"level": 2,
@@ -24224,6 +24221,7 @@
 		},
 		{
 			"name": "Carnivorous Garden",
+			"reprintedAs": [ "Carnivorous Garden|KCC" ],
 			"source": "KCLL",
 			"page": 217,
 			"level": 4,
@@ -24370,6 +24368,7 @@
 		},
 		{
 			"name": "Chrono Conjunction",
+			"reprintedAs": [ "Chrono Conjunction|KCC" ],
 			"source": "KCLL",
 			"page": 218,
 			"level": 6,
@@ -24431,6 +24430,7 @@
 		},
 		{
 			"name": "Clay Touch",
+			"reprintedAs": [ "Clay Touch|KCC" ],
 			"source": "KCLL",
 			"page": 218,
 			"level": 2,
@@ -24518,6 +24518,7 @@
 		},
 		{
 			"name": "Cold Snap",
+			"reprintedAs": [ "Cold Snap|KCC" ],
 			"source": "KCLL",
 			"page": 218,
 			"level": 2,
@@ -24587,6 +24588,7 @@
 		},
 		{
 			"name": "Commandment",
+			"reprintedAs": [ "Commandment|KCC" ],
 			"source": "KCLL",
 			"page": 219,
 			"level": 4,
@@ -24656,6 +24658,7 @@
 		},
 		{
 			"name": "Crackle",
+			"reprintedAs": [ "Crackle|KCC" ],
 			"source": "KCLL",
 			"page": 219,
 			"level": 2,
@@ -24741,6 +24744,7 @@
 		},
 		{
 			"name": "Crashing Wave",
+			"reprintedAs": [ "Crashing Wave|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 1,
@@ -24818,6 +24822,7 @@
 		},
 		{
 			"name": "Create Pit",
+			"reprintedAs": [ "Create Pit|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 1,
@@ -24882,6 +24887,7 @@
 		},
 		{
 			"name": "Crescent Wind Slash",
+			"reprintedAs": [ "Crescent Wind Slash|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 2,
@@ -24951,6 +24957,7 @@
 		},
 		{
 			"name": "Crippling Agony",
+			"reprintedAs": [ "Crippling Agony|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 1,
@@ -25011,6 +25018,7 @@
 		},
 		{
 			"name": "Cruel Puppetry",
+			"reprintedAs": [ "Cruel Puppetry|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 3,
@@ -25095,6 +25103,7 @@
 		},
 		{
 			"name": "Crushing Singularity",
+			"reprintedAs": [ "Crushing Singularity|KCC" ],
 			"source": "KCLL",
 			"page": 220,
 			"level": 3,
@@ -25159,6 +25168,7 @@
 		},
 		{
 			"name": "Curse of Impotence",
+			"reprintedAs": [ "Curse of Impotence|KCC" ],
 			"source": "KCLL",
 			"page": 221,
 			"level": 5,
@@ -25210,7 +25220,8 @@
 			}
 		},
 		{
-			"name": "Dancing Object",
+			"name": "Dancing Objects (Animate Object)",
+			"reprintedAs": [ "Dancing Objects (Animate Object)|KCC" ],
 			"source": "KCLL",
 			"page": 221,
 			"level": 2,
@@ -25329,6 +25340,7 @@
 		},
 		{
 			"name": "Dancing Wave",
+			"reprintedAs": [ "Dancing Wave|KCC" ],
 			"source": "KCLL",
 			"page": 221,
 			"level": 2,
@@ -25401,6 +25413,7 @@
 		},
 		{
 			"name": "Decaying Touch",
+			"reprintedAs": [ "Decaying Touch|KCC" ],
 			"source": "KCLL",
 			"page": 222,
 			"level": 0,
@@ -25476,6 +25489,7 @@
 		},
 		{
 			"name": "Deglove Creature",
+			"reprintedAs": [ "Deglove Creature|KCC" ],
 			"source": "KCLL",
 			"page": 222,
 			"level": 5,
@@ -25528,6 +25542,7 @@
 		},
 		{
 			"name": "Devouring Darkness",
+			"reprintedAs": [ "Devouring Darkness|KCC" ],
 			"source": "KCLL",
 			"page": 222,
 			"level": 5,
@@ -25596,6 +25611,7 @@
 		},
 		{
 			"name": "Devour Shadow",
+			"reprintedAs": [ "Devour Shadow|KCC" ],
 			"source": "KCLL",
 			"page": 222,
 			"level": 4,
@@ -25720,6 +25736,7 @@
 		},
 		{
 			"name": "Dimension Cutter",
+			"reprintedAs": [ "Dimension Cutter|KCC" ],
 			"source": "KCLL",
 			"page": 223,
 			"level": 4,
@@ -25784,6 +25801,7 @@
 		},
 		{
 			"name": "Divine Descent",
+			"reprintedAs": [ "Divine Descent|KCC" ],
 			"source": "KCLL",
 			"page": 223,
 			"level": 8,
@@ -25834,6 +25852,7 @@
 		},
 		{
 			"name": "Divine Judgement",
+			"reprintedAs": [ "Divine Judgement|KCC" ],
 			"source": "KCLL",
 			"page": 223,
 			"level": 2,
@@ -25903,6 +25922,7 @@
 		},
 		{
 			"name": "Disorient",
+			"reprintedAs": [ "Disorient|KCC" ],
 			"source": "KCLL",
 			"page": 223,
 			"level": 2,
@@ -25970,6 +25990,7 @@
 		},
 		{
 			"name": "Dispel Construct",
+			"reprintedAs": [ "Dispel Construct|KCC" ],
 			"source": "KCLL",
 			"page": 224,
 			"level": 3,
@@ -26022,6 +26043,7 @@
 		},
 		{
 			"name": "Divide Self",
+			"reprintedAs": [ "Divide Self|KCC" ],
 			"source": "KCLL",
 			"page": 224,
 			"level": 5,
@@ -26089,6 +26111,7 @@
 		},
 		{
 			"name": "Divine Descent",
+			"reprintedAs": [ "Divine Descent|KCC" ],
 			"source": "KCLL",
 			"page": 224,
 			"level": 8,
@@ -26148,6 +26171,7 @@
 		},
 		{
 			"name": "Dragon Surge",
+			"reprintedAs": [ "Dragon Surge|KCC" ],
 			"source": "KCLL",
 			"page": 224,
 			"level": 2,
@@ -26225,6 +26249,7 @@
 		},
 		{
 			"name": "Dust Cyclone",
+			"reprintedAs": [ "Dust Cyclone|KCC" ],
 			"source": "KCLL",
 			"page": 224,
 			"level": 2,
@@ -26300,6 +26325,7 @@
 		},
 		{
 			"name": "Earth Ripple",
+			"reprintedAs": [ "Earth Ripple|KCC" ],
 			"source": "KCLL",
 			"page": 225,
 			"level": 2,
@@ -26380,6 +26406,7 @@
 		},
 		{
 			"name": "Echoing Lance",
+			"reprintedAs": [ "Echoing Lance|KCC" ],
 			"source": "KCLL",
 			"page": 225,
 			"level": 4,
@@ -26461,6 +26488,7 @@
 		},
 		{
 			"name": "Electric Arc",
+			"reprintedAs": [ "Electric Arc|KCC" ],
 			"source": "KCLL",
 			"page": 225,
 			"level": 0,
@@ -26543,6 +26571,7 @@
 		},
 		{
 			"name": "Electrify",
+			"reprintedAs": [ "Electrify|KCC" ],
 			"source": "KCLL",
 			"page": 225,
 			"level": 1,
@@ -26615,6 +26644,7 @@
 		},
 		{
 			"name": "Electrocute",
+			"reprintedAs": [ "Electrocute|KCC" ],
 			"source": "KCLL",
 			"page": 225,
 			"level": 3,
@@ -26825,6 +26855,7 @@
 		},
 		{
 			"name": "Elemental Orb",
+			"reprintedAs": [ "Elemental Orb|KCC" ],
 			"source": "KCLL",
 			"page": 226,
 			"level": 1,
@@ -26902,6 +26933,7 @@
 		},
 		{
 			"name": "Entomb",
+			"reprintedAs": [ "Entomb|KCC" ],
 			"source": "KCLL",
 			"page": 226,
 			"level": 1,
@@ -26982,6 +27014,7 @@
 		},
 		{
 			"name": "Ethereal Immolation",
+			"reprintedAs": [ "Ethereal Immolation|KCC" ],
 			"source": "KCLL",
 			"page": 227,
 			"level": 2,
@@ -27042,6 +27075,7 @@
 		},
 		{
 			"name": "Erode",
+			"reprintedAs": [ "Erode|KCC" ],
 			"source": "KCLL",
 			"page": 227,
 			"level": 3,
@@ -27111,6 +27145,7 @@
 		},
 		{
 			"name": "Eyes of Immolation",
+			"reprintedAs": [ "Eyes of Immolation|KCC" ],
 			"source": "KCLL",
 			"page": 227,
 			"level": 1,
@@ -27245,6 +27280,7 @@
 		},
 		{
 			"name": "Fall",
+			"reprintedAs": [ "Fall|KCC" ],
 			"source": "KCLL",
 			"page": 227,
 			"level": 1,
@@ -27301,6 +27337,7 @@
 		},
 		{
 			"name": "Field of Stars",
+			"reprintedAs": [ "Field of Stars|KCC" ],
 			"source": "KCLL",
 			"page": 228,
 			"level": 5,
@@ -27374,6 +27411,7 @@
 		},
 		{
 			"name": "Final Flame",
+			"reprintedAs": [ "Final Flame|KCC" ],
 			"source": "KCLL",
 			"page": 228,
 			"level": 6,
@@ -27432,6 +27470,7 @@
 		},
 		{
 			"name": "Fire Cyclone",
+			"reprintedAs": [ "Fire Cyclone|KCC" ],
 			"source": "KCLL",
 			"page": 228,
 			"level": 3,
@@ -27514,6 +27553,7 @@
 		},
 		{
 			"name": "Fireburst Mine",
+			"reprintedAs": [ "Fireburst Mine|KCC" ],
 			"source": "KCLL",
 			"page": 228,
 			"level": 3,
@@ -27577,6 +27617,7 @@
 		},
 		{
 			"name": "Fissure",
+			"reprintedAs": [ "Fissure|KCC" ],
 			"source": "KCLL",
 			"page": 229,
 			"level": 5,
@@ -27642,6 +27683,7 @@
 		},
 		{
 			"name": "Fists of Fire",
+			"reprintedAs": [ "Fists of Fire|KCC" ],
 			"source": "KCLL",
 			"page": 229,
 			"level": 0,
@@ -27703,6 +27745,7 @@
 		},
 		{
 			"name": "Flamethrower",
+			"reprintedAs": [ "Flamethrower|KCC" ],
 			"source": "KCLL",
 			"page": 229,
 			"level": 3,
@@ -27775,6 +27818,7 @@
 		},
 		{
 			"name": "Flash Freeze",
+			"reprintedAs": [ "Flash Freeze|KCC" ],
 			"source": "KCLL",
 			"page": 229,
 			"level": 3,
@@ -27847,6 +27891,7 @@
 		},
 		{
 			"name": "Flickering Strikes",
+			"reprintedAs": [ "Flickering Strikes|KCC" ],
 			"source": "KCLL",
 			"page": 230,
 			"level": 5,
@@ -27906,6 +27951,7 @@
 		},
 		{
 			"name": "Fling",
+			"reprintedAs": [ "Fling|KCC" ],
 			"source": "KCLL",
 			"page": 230,
 			"level": 2,
@@ -27967,6 +28013,7 @@
 		},
 		{
 			"name": "Force Blade",
+			"reprintedAs": [ "Force Blade|KCC" ],
 			"source": "KCLL",
 			"page": 230,
 			"level": 4,
@@ -28039,6 +28086,7 @@
 		},
 		{
 			"name": "Force Bolt",
+			"reprintedAs": [ "Force Bolt|KCC" ],
 			"source": "KCLL",
 			"page": 230,
 			"level": 0,
@@ -28105,6 +28153,7 @@
 		},
 		{
 			"name": "Form of Familiar",
+			"reprintedAs": [ "Form of Familiar|KCC" ],
 			"source": "KCLL",
 			"page": 230,
 			"level": 2,
@@ -28158,6 +28207,7 @@
 		},
 		{
 			"name": "Form of Fire",
+			"reprintedAs": [ "Form of Fire|KCC" ],
 			"source": "KCLL",
 			"page": 231,
 			"level": 6,
@@ -28230,6 +28280,7 @@
 		},
 		{
 			"name": "Form of Ice",
+			"reprintedAs": [ "Form of Ice|KCC" ],
 			"source": "KCLL",
 			"page": 231,
 			"level": 6,
@@ -28305,6 +28356,7 @@
 		},
 		{
 			"name": "Form of Stone",
+			"reprintedAs": [ "Form of Stone|KCC" ],
 			"source": "KCLL",
 			"page": 231,
 			"level": 6,
@@ -28378,6 +28430,7 @@
 		},
 		{
 			"name": "Form of the Elements",
+			"reprintedAs": [ "Form of the Elements|KCC" ],
 			"source": "KCLL",
 			"page": 231,
 			"level": 9,
@@ -28434,6 +28487,7 @@
 		},
 		{
 			"name": "Form of Water",
+			"reprintedAs": [ "Form of Water|KCC" ],
 			"source": "KCLL",
 			"page": 232,
 			"level": 6,
@@ -28507,6 +28561,7 @@
 		},
 		{
 			"name": "Form of Wind",
+			"reprintedAs": [ "Form of Wind|KCC" ],
 			"source": "KCLL",
 			"page": 232,
 			"level": 6,
@@ -28581,6 +28636,7 @@
 		},
 		{
 			"name": "Freeze",
+			"reprintedAs": [ "Freeze|KCC" ],
 			"source": "KCLL",
 			"page": 232,
 			"level": 0,
@@ -28655,6 +28711,7 @@
 		},
 		{
 			"name": "Gale Bolt",
+			"reprintedAs": [ "Gale Bolt|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 1,
@@ -28737,6 +28794,7 @@
 		},
 		{
 			"name": "Gale Shot",
+			"reprintedAs": [ "Gale Shot|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 4,
@@ -28797,6 +28855,7 @@
 		},
 		{
 			"name": "Geyser",
+			"reprintedAs": [ "Geyser|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 4,
@@ -28870,6 +28929,7 @@
 		},
 		{
 			"name": "Ghost Step",
+			"reprintedAs": [ "Ghost Step|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 3,
@@ -28930,6 +28990,7 @@
 		},
 		{
 			"name": "Glacial Crash",
+			"reprintedAs": [ "Glacial Crash|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 7,
@@ -28992,6 +29053,7 @@
 		},
 		{
 			"name": "Gravity Surge",
+			"reprintedAs": [ "Gravity Surge|KCC" ],
 			"source": "KCLL",
 			"page": 233,
 			"level": 2,
@@ -29045,6 +29107,7 @@
 		},
 		{
 			"name": "Grip of the Dead",
+			"reprintedAs": [ "Grip of the Dead|KCC" ],
 			"source": "KCLL",
 			"page": 234,
 			"level": 1,
@@ -29115,6 +29178,7 @@
 		},
 		{
 			"name": "Grasping Roots",
+			"reprintedAs": [ "Grasping Roots|KCC" ],
 			"source": "KCLL",
 			"page": 234,
 			"level": 1,
@@ -29171,6 +29235,7 @@
 		},
 		{
 			"name": "Heavenly Ray",
+			"reprintedAs": [ "Heavenly Ray|KCC" ],
 			"source": "KCLL",
 			"page": 234,
 			"level": 4,
@@ -29312,6 +29377,7 @@
 		},
 		{
 			"name": "Hellfire Pit",
+			"reprintedAs": [ "Hellfire Pit|KCC" ],
 			"source": "KCLL",
 			"page": 235,
 			"level": 7,
@@ -29379,6 +29445,7 @@
 		},
 		{
 			"name": "Hungering Void",
+			"reprintedAs": [ "Hungering Void|KCC" ],
 			"source": "KCLL",
 			"page": 235,
 			"level": 3,
@@ -29460,6 +29527,7 @@
 		},
 		{
 			"name": "Hurricane Slash",
+			"reprintedAs": [ "Hurricane Slash|KCC" ],
 			"source": "KCLL",
 			"page": 235,
 			"level": 2,
@@ -29537,6 +29605,7 @@
 		},
 		{
 			"name": "Ice Arrow",
+			"reprintedAs": [ "Ice Arrow|KCC" ],
 			"source": "KCLL",
 			"page": 235,
 			"level": 1,
@@ -29604,6 +29673,7 @@
 		},
 		{
 			"name": "Ice Spike",
+			"reprintedAs": [ "Ice Spike|KCC" ],
 			"source": "KCLL",
 			"page": 236,
 			"level": 4,
@@ -29671,6 +29741,7 @@
 		},
 		{
 			"name": "Ice Weapon",
+			"reprintedAs": [ "Ice Weapon|KCC" ],
 			"source": "KCLL",
 			"page": 236,
 			"level": 0,
@@ -29772,6 +29843,7 @@
 		},
 		{
 			"name": "Illusionary Dart",
+			"reprintedAs": [ "Illusionary Dart|KCC" ],
 			"source": "KCLL",
 			"page": 236,
 			"level": 0,
@@ -29840,6 +29912,7 @@
 		},
 		{
 			"name": "Illusionary Fireball",
+			"reprintedAs": [ "Illusionary Fireball|KCC" ],
 			"source": "KCLL",
 			"page": 236,
 			"level": 3,
@@ -29921,6 +29994,7 @@
 		},
 		{
 			"name": "Illusory Pit",
+			"reprintedAs": [ "Illusory Pit|KCC" ],
 			"source": "KCLL",
 			"page": 237,
 			"level": 1,
@@ -29999,6 +30073,7 @@
 		},
 		{
 			"name": "Imbue Luck",
+			"reprintedAs": [ "Imbue Luck|KCC" ],
 			"source": "KCLL",
 			"page": 237,
 			"level": 2,
@@ -30053,6 +30128,7 @@
 		},
 		{
 			"name": "Immutability",
+			"reprintedAs": [ "Immutability|KCC" ],
 			"source": "KCLL",
 			"page": 237,
 			"level": 3,
@@ -30103,6 +30179,7 @@
 		},
 		{
 			"name": "Impact",
+			"reprintedAs": [ "Impact|KCC" ],
 			"source": "KCLL",
 			"page": 237,
 			"level": 0,
@@ -30174,6 +30251,7 @@
 		},
 		{
 			"name": "Induce Headache",
+			"reprintedAs": [ "Induce Headache|KCC" ],
 			"source": "KCLL",
 			"page": 238,
 			"level": 1,
@@ -30234,6 +30312,7 @@
 		},
 		{
 			"name": "Infernal Shackles",
+			"reprintedAs": [ "Infernal Shackles|KCC" ],
 			"source": "KCLL",
 			"page": 238,
 			"level": 2,
@@ -30368,6 +30447,7 @@
 		},
 		{
 			"name": "Instant Bulwark",
+			"reprintedAs": [ "Instant Bulwark|KCC" ],
 			"source": "KCLL",
 			"page": 238,
 			"level": 3,
@@ -30434,6 +30514,7 @@
 		},
 		{
 			"name": "Instant Counter",
+			"reprintedAs": [ "Instant Counter|KCC" ],
 			"source": "KCLL",
 			"page": 238,
 			"level": 2,
@@ -30574,6 +30655,7 @@
 		},
 		{
 			"name": "Iron Garden",
+			"reprintedAs": [ "Iron Garden|KCC" ],
 			"source": "KCLL",
 			"page": 239,
 			"level": 4,
@@ -30644,6 +30726,7 @@
 		},
 		{
 			"name": "Iron Wind Strike",
+			"reprintedAs": [ "Iron Wind Strike|KCC" ],
 			"source": "KCLL",
 			"page": 31,
 			"level": 2,
@@ -30709,6 +30792,7 @@
 		},
 		{
 			"name": "Jumping Jolt",
+			"reprintedAs": [ "Jumping Jolt|KCC" ],
 			"source": "KCLL",
 			"page": 239,
 			"level": 4,
@@ -30779,6 +30863,7 @@
 		},
 		{
 			"name": "Karmic Reflection",
+			"reprintedAs": [ "Karmic Reflection|KCC" ],
 			"source": "KCLL",
 			"page": 240,
 			"level": 1,
@@ -30842,6 +30927,7 @@
 		},
 		{
 			"name": "Killing Curse",
+			"reprintedAs": [ "Killing Curse|KCC" ],
 			"source": "KCLL",
 			"page": 240,
 			"level": 5,
@@ -30899,6 +30985,7 @@
 		},
 		{
 			"name": "Lightning Charged",
+			"reprintedAs": [ "Lightning Charged|KCC" ],
 			"source": "KCLL",
 			"page": 240,
 			"level": 2,
@@ -30967,6 +31054,7 @@
 		},
 		{
 			"name": "Lightning Shot",
+			"reprintedAs": [ "Lightning Shot|KCC" ],
 			"source": "KCLL",
 			"page": 240,
 			"level": 3,
@@ -31035,6 +31123,7 @@
 		},
 		{
 			"name": "Lightning Tendril",
+			"reprintedAs": [ "Lightning Tendril|KCC" ],
 			"source": "KCLL",
 			"page": 241,
 			"level": 1,
@@ -31188,6 +31277,7 @@
 		},
 		{
 			"name": "Manipulate Fate",
+			"reprintedAs": [ "Manipulate Fate|KCC" ],
 			"source": "KCLL",
 			"page": 241,
 			"level": 9,
@@ -31559,6 +31649,7 @@
 		},
 		{
 			"name": "Martial Transformation",
+			"reprintedAs": [ "Martial Transformation|KCC" ],
 			"source": "KCLL",
 			"page": 242,
 			"level": 6,
@@ -31627,6 +31718,7 @@
 		},
 		{
 			"name": "Melt",
+			"reprintedAs": [ "Melt|KCC" ],
 			"source": "KCLL",
 			"page": 243,
 			"level": 6,
@@ -31693,6 +31785,7 @@
 		},
 		{
 			"name": "Melting Glob",
+			"reprintedAs": [ "Melting Glob|KCC" ],
 			"source": "KCLL",
 			"page": 243,
 			"level": 1,
@@ -31779,6 +31872,7 @@
 		},
 		{
 			"name": "Meteor Jump",
+			"reprintedAs": [ "Meteor Jump|KCC" ],
 			"source": "KCLL",
 			"page": 244,
 			"level": 3,
@@ -31914,6 +32008,7 @@
 		},
 		{
 			"name": "Mirror Army",
+			"reprintedAs": [ "Mirror Army|KCC" ],
 			"source": "KCLL",
 			"page": 244,
 			"level": 4,
@@ -31979,6 +32074,7 @@
 		},
 		{
 			"name": "Mounting Paranoia",
+			"reprintedAs": [ "Mounting Paranoia|KCC" ],
 			"source": "KCLL",
 			"page": 244,
 			"level": 3,
@@ -32044,6 +32140,7 @@
 		},
 		{
 			"name": "Multishot",
+			"reprintedAs": [ "Multishot|KCC" ],
 			"source": "KCLL",
 			"page": 244,
 			"level": 1,
@@ -32110,6 +32207,7 @@
 		},
 		{
 			"name": "Mutate",
+			"reprintedAs": [ "Mutate|KCC" ],
 			"source": "KCLL",
 			"page": 245,
 			"level": 3,
@@ -32203,6 +32301,7 @@
 		},
 		{
 			"name": "Nauseating Poison",
+			"reprintedAs": [ "Nauseating Poison|KCC" ],
 			"source": "KCLL",
 			"page": 245,
 			"level": 1,
@@ -32275,6 +32374,7 @@
 		},
 		{
 			"name": "Orbital Stones",
+			"reprintedAs": [ "Orbital Stones|KCC" ],
 			"source": "KCLL",
 			"page": 245,
 			"level": 4,
@@ -32343,6 +32443,7 @@
 		},
 		{
 			"name": "Pillar of Fire",
+			"reprintedAs": [ "Pillar of Fire|KCC" ],
 			"source": "KCLL",
 			"page": 246,
 			"level": 4,
@@ -32413,6 +32514,7 @@
 		},
 		{
 			"name": "Platinum Lances",
+			"reprintedAs": [ "Platinum Lances|KCC" ],
 			"source": "KCLL",
 			"page": 246,
 			"level": 6,
@@ -32549,6 +32651,7 @@
 		},
 		{
 			"name": "Poison Dart",
+			"reprintedAs": [ "Poison Dart|KCC" ],
 			"source": "KCLL",
 			"page": 246,
 			"level": 2,
@@ -32636,6 +32739,7 @@
 		},
 		{
 			"name": "Poison Puff",
+			"reprintedAs": [ "Poison Puff|KCC" ],
 			"source": "KCLL",
 			"page": 246,
 			"level": 4,
@@ -32713,6 +32817,7 @@
 		},
 		{
 			"name": "Power Torrent",
+			"reprintedAs": [ "Power Torrent|KCC" ],
 			"source": "KCLL",
 			"page": 246,
 			"level": 1,
@@ -32772,6 +32877,7 @@
 		},
 		{
 			"name": "Preservation",
+			"reprintedAs": [ "Preservation|KCC" ],
 			"source": "KCLL",
 			"page": 247,
 			"level": 0,
@@ -32838,6 +32944,7 @@
 		},
 		{
 			"name": "Pressure Cutter",
+			"reprintedAs": [ "Pressure Cutter|KCC" ],
 			"source": "KCLL",
 			"page": 247,
 			"level": 5,
@@ -32907,6 +33014,7 @@
 		},
 		{
 			"name": "Prismatic Flash",
+			"reprintedAs": [ "Prismatic Flash|KCC" ],
 			"source": "KCLL",
 			"page": 247,
 			"level": 1,
@@ -32987,6 +33095,7 @@
 		},
 		{
 			"name": "Pseudopod Slam",
+			"reprintedAs": [ "Pseudopod Slam|KCC" ],
 			"source": "KCLL",
 			"page": 247,
 			"level": 2,
@@ -33069,6 +33178,7 @@
 		},
 		{
 			"name": "Pyroclastic Lance",
+			"reprintedAs": [ "Pyroclastic Lance|KCC" ],
 			"source": "KCLL",
 			"page": 248,
 			"level": 5,
@@ -33212,6 +33322,7 @@
 		},
 		{
 			"name": "Quicksilver Steps",
+			"reprintedAs": [ "Quicksilver Steps|KCC" ],
 			"source": "KCLL",
 			"page": 248,
 			"level": 4,
@@ -33284,6 +33395,7 @@
 		},
 		{
 			"name": "Rain of Spiders",
+			"reprintedAs": [ "Rain of Spiders|KCC" ],
 			"source": "KCLL",
 			"page": 248,
 			"level": 3,
@@ -33354,6 +33466,7 @@
 		},
 		{
 			"name": "Rain of Swords",
+			"reprintedAs": [ "Rain of Swords|KCC" ],
 			"source": "KCLL",
 			"page": 248,
 			"level": 7,
@@ -33414,6 +33527,7 @@
 		},
 		{
 			"name": "Repair",
+			"reprintedAs": [ "Repair|KCC" ],
 			"source": "KCLL",
 			"page": 249,
 			"level": 4,
@@ -33471,6 +33585,7 @@
 		},
 		{
 			"name": "Returning Weapon",
+			"reprintedAs": [ "Returning Weapon|KCC" ],
 			"source": "KCLL",
 			"page": 249,
 			"level": 1,
@@ -33521,6 +33636,7 @@
 		},
 		{
 			"name": "Reverberating Dash",
+			"reprintedAs": [ "Reverberating Dash|KCC" ],
 			"source": "KCLL",
 			"page": 249,
 			"level": 2,
@@ -33583,6 +33699,7 @@
 		},
 		{
 			"name": "Ribcage",
+			"reprintedAs": [ "Ribcage|KCC" ],
 			"source": "KCLL",
 			"page": 249,
 			"level": 4,
@@ -33658,6 +33775,7 @@
 		},
 		{
 			"name": "Rock Slam",
+			"reprintedAs": [ "Rock Slam|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 0,
@@ -33736,6 +33854,7 @@
 		},
 		{
 			"name": "Rotting Curse",
+			"reprintedAs": [ "Rotting Curse|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 1,
@@ -33792,6 +33911,7 @@
 		},
 		{
 			"name": "Sanctified Charge",
+			"reprintedAs": [ "Sanctified Charge|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 2,
@@ -33852,6 +33972,7 @@
 		},
 		{
 			"name": "Seeking Orb",
+			"reprintedAs": [ "Seeking Orb|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 2,
@@ -33907,6 +34028,7 @@
 		},
 		{
 			"name": "Seeking Projectile",
+			"reprintedAs": [ "Seeking Projectile|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 1,
@@ -33963,6 +34085,7 @@
 		},
 		{
 			"name": "Seismic Wave",
+			"reprintedAs": [ "Seismic Wave|KCC" ],
 			"source": "KCLL",
 			"page": 250,
 			"level": 3,
@@ -34033,6 +34156,7 @@
 		},
 		{
 			"name": "Shadow Bind",
+			"reprintedAs": [ "Shadow Bind|KCC" ],
 			"source": "KCLL",
 			"page": 251,
 			"level": 1,
@@ -34112,6 +34236,7 @@
 		},
 		{
 			"name": "Shadow Lash",
+			"reprintedAs": [ "Shadow Lash|KCC" ],
 			"source": "KCLL",
 			"page": 251,
 			"level": 0,
@@ -34179,6 +34304,7 @@
 		},
 		{
 			"name": "Shattering Shield",
+			"reprintedAs": [ "Shattering Shield|KCC" ],
 			"source": "KCLL",
 			"page": 251,
 			"level": 2,
@@ -34251,6 +34377,7 @@
 		},
 		{
 			"name": "Sky Burst",
+			"reprintedAs": [ "Sky Burst|KCC" ],
 			"source": "KCLL",
 			"page": 251,
 			"level": 5,
@@ -34326,6 +34453,7 @@
 		},
 		{
 			"name": "Sonic Shriek",
+			"reprintedAs": [ "Sonic Shriek|KCC" ],
 			"source": "KCLL",
 			"page": 252,
 			"level": 5,
@@ -34400,6 +34528,7 @@
 		},
 		{
 			"name": "Spatial Swap",
+			"reprintedAs": [ "Spatial Swap|KCC" ],
 			"source": "KCLL",
 			"page": 252,
 			"level": 4,
@@ -34458,6 +34587,7 @@
 		},
 		{
 			"name": "Spelltrap",
+			"reprintedAs": [ "Spelltrap|KCC" ],
 			"source": "KCLL",
 			"page": 252,
 			"level": 2,
@@ -34523,6 +34653,7 @@
 		},
 		{
 			"name": "Spider Bite",
+			"reprintedAs": [ "Spider Bite|KCC" ],
 			"source": "KCLL",
 			"page": 252,
 			"level": 3,
@@ -34606,6 +34737,7 @@
 		},
 		{
 			"name": "Spirit Echo",
+			"reprintedAs": [ "Spirit Echo|KCC" ],
 			"source": "KCLL",
 			"page": 252,
 			"level": 2,
@@ -34662,6 +34794,7 @@
 		},
 		{
 			"name": "Spiritual Consultation",
+			"reprintedAs": [ "Spiritual Consultation|KCC" ],
 			"source": "KCLL",
 			"page": 253,
 			"level": 1,
@@ -34724,6 +34857,7 @@
 		},
 		{
 			"name": "Split Timeline",
+			"reprintedAs": [ "Split Timeline|KCC" ],
 			"source": "KCLL",
 			"page": 253,
 			"level": 4,
@@ -34792,6 +34926,7 @@
 		},
 		{
 			"name": "Sprout Tree",
+			"reprintedAs": [ "Sprout Tree|KCC" ],
 			"source": "KCLL",
 			"page": 253,
 			"level": 2,
@@ -34841,6 +34976,7 @@
 		},
 		{
 			"name": "Starfall",
+			"reprintedAs": [ "Starfall|KCC" ],
 			"source": "KCLL",
 			"page": 253,
 			"level": 4,
@@ -34920,6 +35056,7 @@
 		},
 		{
 			"name": "Star Dust",
+			"reprintedAs": [ "Star Dust|KCC" ],
 			"source": "KCLL",
 			"page": 254,
 			"level": 2,
@@ -34974,6 +35111,7 @@
 		},
 		{
 			"name": "Star Scry",
+			"reprintedAs": [ "Star Scry|KCC" ],
 			"source": "KCLL",
 			"page": 254,
 			"level": 2,
@@ -35026,6 +35164,7 @@
 		},
 		{
 			"name": "Static Field",
+			"reprintedAs": [ "Static Field|KCC" ],
 			"source": "KCLL",
 			"page": 254,
 			"level": 3,
@@ -35101,6 +35240,7 @@
 		},
 		{
 			"name": "Stinging Swarm",
+			"reprintedAs": [ "Stinging Swarm|KCC" ],
 			"source": "KCLL",
 			"page": 254,
 			"level": 4,
@@ -35172,6 +35312,7 @@
 		},
 		{
 			"name": "Stone Coffin",
+			"reprintedAs": [ "Stone Coffin|KCC" ],
 			"source": "KCLL",
 			"page": 254,
 			"level": 4,
@@ -35249,6 +35390,7 @@
 		},
 		{
 			"name": "Stone Fist",
+			"reprintedAs": [ "Stone Fist|KCC" ],
 			"source": "KCLL",
 			"page": 255,
 			"level": 1,
@@ -35330,6 +35472,7 @@
 		},
 		{
 			"name": "Stone Forming",
+			"reprintedAs": [ "Stone Forming|KCC" ],
 			"source": "KCLL",
 			"page": 255,
 			"level": 0,
@@ -35383,6 +35526,7 @@
 		},
 		{
 			"name": "Stone Pillar",
+			"reprintedAs": [ "Stone Pillar|KCC" ],
 			"source": "KCLL",
 			"page": 255,
 			"level": 2,
@@ -35451,6 +35595,7 @@
 		},
 		{
 			"name": "Storm Shot",
+			"reprintedAs": [ "Storm Shot|KCC" ],
 			"source": "KCLL",
 			"page": 255,
 			"level": 5,
@@ -35514,6 +35659,7 @@
 		},
 		{
 			"name": "Suffocate",
+			"reprintedAs": [ "Suffocate|KCC" ],
 			"source": "KCLL",
 			"page": 256,
 			"level": 4,
@@ -35583,6 +35729,7 @@
 		},
 		{
 			"name": "Sudden Hazards",
+			"reprintedAs": [ "Sudden Hazards|KCC" ],
 			"source": "KCLL",
 			"page": 256,
 			"level": 5,
@@ -35651,6 +35798,7 @@
 		},
 		{
 			"name": "Summon Archon",
+			"reprintedAs": [ "Summon Archon|KCC" ],
 			"source": "KCLL",
 			"page": 256,
 			"level": 2,
@@ -35723,6 +35871,7 @@
 		},
 		{
 			"name": "Summon Dragon",
+			"reprintedAs": [ "Summon Dragon|KCC" ],
 			"source": "KCLL",
 			"page": 256,
 			"level": 5,
@@ -35857,6 +36006,7 @@
 		},
 		{
 			"name": "Summon Monstrosity",
+			"reprintedAs": [ "Summon Monstrosity|KCC" ],
 			"source": "KCLL",
 			"page": 257,
 			"level": 3,
@@ -35925,6 +36075,7 @@
 		},
 		{
 			"name": "Summon Ooze",
+			"reprintedAs": [ "Summon Ooze|KCC" ],
 			"source": "KCLL",
 			"page": 258,
 			"level": 1,
@@ -35989,6 +36140,7 @@
 		},
 		{
 			"name": "Summon Plant",
+			"reprintedAs": [ "Summon Plant|KCC" ],
 			"source": "KCLL",
 			"page": 258,
 			"level": 3,
@@ -36057,6 +36209,7 @@
 		},
 		{
 			"name": "Summon Swarm",
+			"reprintedAs": [ "Summon Swarm|KCC" ],
 			"source": "KCLL",
 			"page": 259,
 			"level": 2,
@@ -36129,6 +36282,7 @@
 		},
 		{
 			"name": "Supernova",
+			"reprintedAs": [ "Supernova|KCC" ],
 			"source": "KCLL",
 			"page": 260,
 			"level": 9,
@@ -36188,6 +36342,7 @@
 		},
 		{
 			"name": "Swapping Curse",
+			"reprintedAs": [ "Swapping Curse|KCC" ],
 			"source": "KCLL",
 			"page": 260,
 			"level": 5,
@@ -36245,6 +36400,7 @@
 		},
 		{
 			"name": "Thunderburst Mine",
+			"reprintedAs": [ "Thunderburst Mine|KCC" ],
 			"source": "KCLL",
 			"page": 260,
 			"level": 2,
@@ -36304,6 +36460,7 @@
 		},
 		{
 			"name": "Thunder Note",
+			"reprintedAs": [ "Thunder Note|KCC" ],
 			"source": "KCLL",
 			"page": 260,
 			"level": 0,
@@ -36366,6 +36523,7 @@
 		},
 		{
 			"name": "Thunder Pulse",
+			"reprintedAs": [ "Thunder Pulse|KCC" ],
 			"source": "KCLL",
 			"page": 260,
 			"level": 3,
@@ -36447,6 +36605,7 @@
 		},
 		{
 			"name": "Thunder Punch",
+			"reprintedAs": [ "Thunder Punch|KCC" ],
 			"source": "KCLL",
 			"page": 261,
 			"level": 1,
@@ -36524,6 +36683,7 @@
 		},
 		{
 			"name": "Time Anchor",
+			"reprintedAs": [ "Time Anchor|KCC" ],
 			"source": "KCLL",
 			"page": 261,
 			"level": 8,
@@ -36585,6 +36745,7 @@
 		},
 		{
 			"name": "Time Bubble",
+			"reprintedAs": [ "Time Bubble|KCC" ],
 			"source": "KCLL",
 			"page": 261,
 			"level": 8,
@@ -36651,6 +36812,7 @@
 		},
 		{
 			"name": "Time Loop",
+			"reprintedAs": [ "Time Loop|KCC" ],
 			"source": "KCLL",
 			"page": 262,
 			"level": 4,
@@ -36721,6 +36883,7 @@
 		},
 		{
 			"name": "Time Skip",
+			"reprintedAs": [ "Time Skip|KCC" ],
 			"source": "KCLL",
 			"page": 262,
 			"level": 2,
@@ -36859,6 +37022,7 @@
 		},
 		{
 			"name": "Time Trap",
+			"reprintedAs": [ "Time Trap|KCC" ],
 			"source": "KCLL",
 			"page": 262,
 			"level": 2,
@@ -36931,6 +37095,7 @@
 		},
 		{
 			"name": "Tornado",
+			"reprintedAs": [ "Tornado|KCC" ],
 			"source": "KCLL",
 			"page": 263,
 			"level": 5,
@@ -37004,6 +37169,7 @@
 		},
 		{
 			"name": "Tranquil Moment",
+			"reprintedAs": [ "Tranquil Moment|KCC" ],
 			"source": "KCLL",
 			"page": 263,
 			"level": 1,
@@ -37058,6 +37224,7 @@
 		},
 		{
 			"name": "Twisting Eruption",
+			"reprintedAs": [ "Twisting Eruption|KCC" ],
 			"source": "KCLL",
 			"page": 263,
 			"level": 7,
@@ -37123,6 +37290,7 @@
 		},
 		{
 			"name": "Unburden",
+			"reprintedAs": [ "Unburden|KCC" ],
 			"source": "KCLL",
 			"page": 263,
 			"level": 1,
@@ -37170,6 +37338,7 @@
 		},
 		{
 			"name": "Unholy Wave",
+			"reprintedAs": [ "Unholy Wave|KCC" ],
 			"source": "KCLL",
 			"page": 264,
 			"level": 2,
@@ -37240,6 +37409,7 @@
 		},
 		{
 			"name": "Unstable Explosion",
+			"reprintedAs": [ "Unstable Explosion|KCC" ],
 			"source": "KCLL",
 			"page": 264,
 			"level": 2,
@@ -37305,6 +37475,7 @@
 		},
 		{
 			"name": "Vacuum Pull",
+			"reprintedAs": [ "Vacuum Pull|KCC" ],
 			"source": "KCLL",
 			"page": 264,
 			"level": 2,
@@ -37451,6 +37622,7 @@
 		},
 		{
 			"name": "Vicious Hound",
+			"reprintedAs": [ "Vicious Hound|KCC" ],
 			"source": "KCLL",
 			"page": 265,
 			"level": 2,
@@ -37527,6 +37699,7 @@
 		},
 		{
 			"name": "Vicious Vapors",
+			"reprintedAs": [ "Vicious Vapors|KCC" ],
 			"source": "KCLL",
 			"page": 265,
 			"level": 2,
@@ -37606,6 +37779,7 @@
 		},
 		{
 			"name": "Violent Crush",
+			"reprintedAs": [ "Violent Crush|KCC" ],
 			"source": "KCLL",
 			"page": 265,
 			"level": 4,
@@ -37674,6 +37848,7 @@
 		},
 		{
 			"name": "Violent Updraft",
+			"reprintedAs": [ "Violent Updraft|KCC" ],
 			"source": "KCLL",
 			"page": 266,
 			"level": 1,
@@ -37755,6 +37930,7 @@
 		},
 		{
 			"name": "Vital Surge",
+			"reprintedAs": [ "Vital Surge|KCC" ],
 			"source": "KCLL",
 			"page": 266,
 			"level": 4,
@@ -37825,6 +38001,7 @@
 		},
 		{
 			"name": "Volcanic Burst",
+			"reprintedAs": [ "Volcanic Burst|KCC" ],
 			"source": "KCLL",
 			"page": 266,
 			"level": 6,
@@ -37902,6 +38079,7 @@
 		},
 		{
 			"name": "Vorpal Shot",
+			"reprintedAs": [ "Vorpal Shot|KCC" ],
 			"source": "KCLL",
 			"page": 266,
 			"level": 5,
@@ -37961,6 +38139,7 @@
 		},
 		{
 			"name": "Vorpal Weapon",
+			"reprintedAs": [ "Vorpal Weapon|KCC" ],
 			"source": "KCLL",
 			"page": 267,
 			"level": 5,
@@ -38013,6 +38192,7 @@
 		},
 		{
 			"name": "Vortex Blast",
+			"reprintedAs": [ "Vortex Blast|KCC" ],
 			"source": "KCLL",
 			"page": 267,
 			"level": 3,
@@ -38091,6 +38271,7 @@
 		},
 		{
 			"name": "Wasp Barrage",
+			"reprintedAs": [ "Wasp Barrage|KCC" ],
 			"source": "KCLL",
 			"page": 267,
 			"level": 3,
@@ -38170,6 +38351,7 @@
 		},
 		{
 			"name": "Water Blast",
+			"reprintedAs": [ "Water Blast|KCC" ],
 			"source": "KCLL",
 			"page": 267,
 			"level": 1,
@@ -38257,6 +38439,7 @@
 		},
 		{
 			"name": "Water Bullet",
+			"reprintedAs": [ "Water Bullet|KCC" ],
 			"source": "KCLL",
 			"page": 267,
 			"level": 0,
@@ -38336,6 +38519,7 @@
 		},
 		{
 			"name": "Water Cannon",
+			"reprintedAs": [ "Water Cannon|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 3,
@@ -38413,6 +38597,7 @@
 		},
 		{
 			"name": "Waterspout",
+			"reprintedAs": [ "Waterspout|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 3,
@@ -38490,6 +38675,7 @@
 		},
 		{
 			"name": "Whirling Conflagration",
+			"reprintedAs": [ "Whirling Conflagration|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 3,
@@ -38548,6 +38734,7 @@
 		},
 		{
 			"name": "Wind Cutter",
+			"reprintedAs": [ "Wind Cutter|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 2,
@@ -38627,6 +38814,7 @@
 		},
 		{
 			"name": "Windborne Weapon",
+			"reprintedAs": [ "Windborne Weapon|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 0,
@@ -38702,6 +38890,7 @@
 		},
 		{
 			"name": "Windsense",
+			"reprintedAs": [ "Windsense|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 2,
@@ -38753,6 +38942,7 @@
 		},
 		{
 			"name": "Wither",
+			"reprintedAs": [ "Wither|KCC" ],
 			"source": "KCLL",
 			"page": 268,
 			"level": 3,
@@ -39619,6 +39809,7 @@
 		},
 		{
 			"name": "Blood Bolt",
+			"reprintedAs": [ "Blood Bolt|KCC" ],
 			"source": "KCLL",
 			"page": 56,
 			"otherSources": [
@@ -39694,6 +39885,7 @@
 		},
 		{
 			"name": "Bloody Burst",
+			"reprintedAs": [ "Bloody Burst|KCC" ],
 			"source": "KCLL",
 			"page": 56,
 			"otherSources": [
@@ -39772,6 +39964,7 @@
 		},
 		{
 			"name": "Blood Divination",
+			"reprintedAs": [ "Blood Divination|KCC" ],
 			"source": "KCLL",
 			"page": 56,
 			"otherSources": [
@@ -39829,6 +40022,7 @@
 		},
 		{
 			"name": "Blood Explosion",
+			"reprintedAs": [ "Blood Explosion|KCC" ],
 			"source": "KCLL",
 			"page": 56,
 			"otherSources": [
@@ -39909,6 +40103,7 @@
 		},
 		{
 			"name": "Blood Frenzy",
+			"reprintedAs": [ "Blood Frenzy|KCC" ],
 			"source": "KCLL",
 			"page": 57,
 			"otherSources": [
@@ -39982,6 +40177,7 @@
 		},
 		{
 			"name": "Blood Wave",
+			"reprintedAs": [ "Blood Wave|KCC" ],
 			"source": "KCLL",
 			"page": 57,
 			"otherSources": [
@@ -40065,6 +40261,7 @@
 		},
 		{
 			"name": "Compelled Convulsion",
+			"reprintedAs": [ "Compelled Convulsion|KCC" ],
 			"source": "KCLL",
 			"page": 57,
 			"otherSources": [
@@ -40136,6 +40333,7 @@
 		},
 		{
 			"name": "Crimson Poison",
+			"reprintedAs": [ "Crimson Poison|KCC" ],
 			"source": "KCLL",
 			"page": 57,
 			"otherSources": [
@@ -40212,6 +40410,7 @@
 		},
 		{
 			"name": "Crimson Tide",
+			"reprintedAs": [ "Crimson Tide|KCC" ],
 			"source": "KCLL",
 			"page": 57,
 			"otherSources": [
@@ -40278,6 +40477,7 @@
 		},
 		{
 			"name": "Devouring Mist",
+			"reprintedAs": [ "Devouring Mist|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40349,6 +40549,7 @@
 		},
 		{
 			"name": "Explode Heart",
+			"reprintedAs": [ "Explode Heart|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40416,6 +40617,7 @@
 		},
 		{
 			"name": "Exsanguinate",
+			"reprintedAs": [ "Exsanguinate|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40494,6 +40696,7 @@
 		},
 		{
 			"name": "Ichorous Blood",
+			"reprintedAs": [ "Ichorous Blood|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40570,6 +40773,7 @@
 		},
 		{
 			"name": "Life Link",
+			"reprintedAs": [ "Life Link|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40659,6 +40863,7 @@
 		},
 		{
 			"name": "Life Support",
+			"reprintedAs": [ "Life Support|KCC" ],
 			"source": "KCLL",
 			"page": 58,
 			"otherSources": [
@@ -40722,6 +40927,7 @@
 		},
 		{
 			"name": "Macabre Marionette",
+			"reprintedAs": [ "Macabre Marionette|KCC" ],
 			"source": "KCLL",
 			"page": 59,
 			"otherSources": [
@@ -40796,6 +41002,7 @@
 		},
 		{
 			"name": "Morbid Puppet",
+			"reprintedAs": [ "Morbid Puppet|KCC" ],
 			"source": "KCLL",
 			"page": 59,
 			"otherSources": [
@@ -40874,6 +41081,7 @@
 		},
 		{
 			"name": "Sanguine Doom",
+			"reprintedAs": [ "Sanguine Doom|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -40948,6 +41156,7 @@
 		},
 		{
 			"name": "Sanguine Spears",
+			"reprintedAs": [ "Sanguine Spears|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -41029,6 +41238,7 @@
 		},
 		{
 			"name": "Sense Blood",
+			"reprintedAs": [ "Sense Blood|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -41103,6 +41313,7 @@
 		},
 		{
 			"name": "Stirge Swarm",
+			"reprintedAs": [ "Stirge Swarm|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -41172,6 +41383,7 @@
 		},
 		{
 			"name": "Transfuse Life",
+			"reprintedAs": [ "Transfuse Life|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -41243,6 +41455,7 @@
 		},
 		{
 			"name": "Vampiric Blade",
+			"reprintedAs": [ "Vampiric Blade|KCC" ],
 			"source": "KCLL",
 			"page": 60,
 			"otherSources": [
@@ -41309,6 +41522,7 @@
 		},
 		{
 			"name": "Freezing Shell",
+			"reprintedAs": [ "Freezing Shell|KCC" ],
 			"source": "KCLL",
 			"level": 1,
 			"school": "A",
