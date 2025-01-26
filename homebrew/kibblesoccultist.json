@@ -5,6 +5,7 @@
 				"json": "KT-OCB",
 				"abbreviation": "KT-OCB",
 				"full": "KibblesTasty: Occultist Class Book",
+				"color": "E477F6",
 				"authors": [
 					"KibblesTasty"
 				],
@@ -1184,6 +1185,7 @@
 	"item": [
 		{
 			"name": "Occult Fetish",
+			"reprintedAs": ["Occult Fetish|KCLL"],
 			"source": "KT-OCB",
 			"page": 3,
 			"type": "SCF",

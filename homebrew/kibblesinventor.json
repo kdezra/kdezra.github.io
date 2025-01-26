@@ -5,9 +5,9 @@
 			{
 				"json": "KT-ICB",
 				"abbreviation": "KT-ICB",
-				"full": "KibbleTasty: Inventor Class Book",
+				"full": "KibblesTasty: Inventor Class Book",
 				"authors": [
-					"/u/KibblesTasty"
+					"KibblesTasty"
 				],
 				"convertedBy": [
 					"Giddy",
@@ -436,47 +436,47 @@
 			},
 			"classFeatures": [
 				{
-					"classFeature": "Inventor Specialization|KibbleTasty's Inventor|KT-ICB|1",
+					"classFeature": "Inventor Specialization|Inventor|KT-ICB|1",
 					"gainSubclassFeature": true
 				},
-				"Magic Item Analysis|KibbleTasty's Inventor|KT-ICB|1",
-				"Tool Expertise|KibbleTasty's Inventor|KT-ICB|2",
-				"Arcane Retrofit|KibbleTasty's Inventor|KT-ICB|2",
-				"Spellcasting|KibbleTasty's Inventor|KT-ICB|2",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|3",
+				"Magic Item Analysis|Inventor|KT-ICB|1",
+				"Tool Expertise|Inventor|KT-ICB|2",
+				"Arcane Retrofit|Inventor|KT-ICB|2",
+				"Spellcasting|Inventor|KT-ICB|2",
+				"Specialization Upgrade|Inventor|KT-ICB|3",
 				{
-					"classFeature": "Inventor Specialist feature|KibbleTasty's Inventor|KT-ICB|3",
+					"classFeature": "Inventor Specialist feature|Inventor|KT-ICB|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|KibbleTasty's Inventor|KT-ICB|4",
+				"Ability Score Improvement|Inventor|KT-ICB|4",
 				{
-					"classFeature": "Inventor Specialist feature|KibbleTasty's Inventor|KT-ICB|5",
+					"classFeature": "Inventor Specialist feature|Inventor|KT-ICB|5",
 					"gainSubclassFeature": true
 				},
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|5",
-				"Arcane Reconstruction|KibbleTasty's Inventor|KT-ICB|6",
-				"Cross Disciplinary Knowledge|KibbleTasty's Inventor|KT-ICB|6",
-				"Wondrous Items Proficiency|KibbleTasty's Inventor|KT-ICB|7",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|7",
-				"Ability Score Improvement|KibbleTasty's Inventor|KT-ICB|8",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|9",
-				"Improved Magical Crafting|KibbleTasty's Inventor|KT-ICB|10",
-				"Wondrous Item Recharge|KibbleTasty's Inventor|KT-ICB|10",
-				"Study of Magic|KibbleTasty's Inventor|KT-ICB|11",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|11",
-				"Ability Score Improvement|KibbleTasty's Inventor|KT-ICB|12",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|13",
+				"Specialization Upgrade|Inventor|KT-ICB|5",
+				"Arcane Reconstruction|Inventor|KT-ICB|6",
+				"Cross Disciplinary Knowledge|Inventor|KT-ICB|6",
+				"Wondrous Items Proficiency|Inventor|KT-ICB|7",
+				"Specialization Upgrade|Inventor|KT-ICB|7",
+				"Ability Score Improvement|Inventor|KT-ICB|8",
+				"Specialization Upgrade|Inventor|KT-ICB|9",
+				"Improved Magical Crafting|Inventor|KT-ICB|10",
+				"Wondrous Item Recharge|Inventor|KT-ICB|10",
+				"Study of Magic|Inventor|KT-ICB|11",
+				"Specialization Upgrade|Inventor|KT-ICB|11",
+				"Ability Score Improvement|Inventor|KT-ICB|12",
+				"Specialization Upgrade|Inventor|KT-ICB|13",
 				{
-					"classFeature": "Inventor Specialist feature|KibbleTasty's Inventor|KT-ICB|14",
+					"classFeature": "Inventor Specialist feature|Inventor|KT-ICB|14",
 					"gainSubclassFeature": true
 				},
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|15",
-				"Ability Score Improvement|KibbleTasty's Inventor|KT-ICB|16",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|17",
-				"Wondrous Items Mastery|KibbleTasty's Inventor|KT-ICB|18",
-				"Ability Score Improvement|KibbleTasty's Inventor|KT-ICB|19",
-				"Specialization Upgrade|KibbleTasty's Inventor|KT-ICB|19",
-				"Peerless Inventor|KibbleTasty's Inventor|KT-ICB|20"
+				"Specialization Upgrade|Inventor|KT-ICB|15",
+				"Ability Score Improvement|Inventor|KT-ICB|16",
+				"Specialization Upgrade|Inventor|KT-ICB|17",
+				"Wondrous Items Mastery|Inventor|KT-ICB|18",
+				"Ability Score Improvement|Inventor|KT-ICB|19",
+				"Specialization Upgrade|Inventor|KT-ICB|19",
+				"Peerless Inventor|Inventor|KT-ICB|20"
 			],
 			"subclassTitle": "Inventor Specializations",
 			"classSpells": [
@@ -1625,7 +1625,7 @@
 				}
 			],
 			"entries": [
-				"You build a toolbox, filling it with the many ideas you've had and discarded, with the magical power of making those ideas reality when you need them most. As an action, you can reach into the toolbox and withdraw an {@filter Unrestricted Upgrade|optionalfeatures|Feature Type=IS:G|level=!kibbletasty's inventor level 5;!kibbletasty's inventor level 9;!kibbletasty'sinventor level 11;!kibbletasty's inventor level 15} of your choice (one with no level requirement) from the Gadgetsmith list. Gadgets withdrawn from the toolbox are fleeting, and disappear after 1 minute. Once you have withdrawn an upgrade from the toolbox, you can't withdraw another upgrade from it until you finish a long rest."
+				"You build a toolbox, filling it with the many ideas you've had and discarded, with the magical power of making those ideas reality when you need them most. As an action, you can reach into the toolbox and withdraw an {@filter Unrestricted Upgrade|optionalfeatures|Feature Type=IS:G|level=!Inventor level 5;!Inventor level 9;!kibbletasty'sinventor level 11;!Inventor level 15} of your choice (one with no level requirement) from the Gadgetsmith list. Gadgets withdrawn from the toolbox are fleeting, and disappear after 1 minute. Once you have withdrawn an upgrade from the toolbox, you can't withdraw another upgrade from it until you finish a long rest."
 			]
 		},
 		{
@@ -11306,11 +11306,11 @@
 				"A Gadgetsmith can come from any walk of life, but usually exemplifies a curiosity and distaste for the suppression of knowledge or technology, usually favoring freedom to experiment, leaning toward more Chaotic behaviors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gadgetsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|1"
+					"subclassFeature": "Gadgetsmith's Proficiency|Inventor|KT-ICB|Gadgetsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Essential Tools|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|1"
+					"subclassFeature": "Essential Tools|Inventor|KT-ICB|Gadgetsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -11450,15 +11450,15 @@
 				"A Golemsmith is rarely chaotic, as they are by their natures people of great care and discipline: those are not would not have succeeded where they have, but some have been set on their path by such events that might drive them interact chaotically with society as a whole.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Golemsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|1"
+					"subclassFeature": "Golemsmith's Proficiency|Inventor|KT-ICB|Golemsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mechanical Golem|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|1"
+					"subclassFeature": "Mechanical Golem|Inventor|KT-ICB|Golemsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Golem Chassis|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|1"
+					"subclassFeature": "Golem Chassis|Inventor|KT-ICB|Golemsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -11660,11 +11660,11 @@
 				"An Infusionsmith can be magical swordsman, a wandslinger, or bookish supporting character with a bag full of tricks that never quite runs dry. Some will stand within a maelstrom of animated blades while others will plink away with a crossbow that seems unerringly accurate, but their common theme is using their prowess of infusion to make themselves formidable.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infusionsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|1"
+					"subclassFeature": "Infusionsmith's Proficiency|Inventor|KT-ICB|Infusionsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Infused Armament|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|1"
+					"subclassFeature": "Infused Armament|Inventor|KT-ICB|Infusionsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -11839,19 +11839,19 @@
 				"An alchemist can be a scholar who has delved much of the knowledge the world has to offer or an explorer that has unlocked the secrets of the wilderness. Their knowledge could come being friends of the fey, or unfettered access to the royal library. As such, alchemists can be good or evil, lawful or chaotic.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemists and Potions|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|1"
+					"subclassFeature": "Alchemists and Potions|Inventor|KT-ICB|Potionsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Potionsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|1"
+					"subclassFeature": "Potionsmith's Proficiency|Inventor|KT-ICB|Potionsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemical Reagent's Pouch|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|1"
+					"subclassFeature": "Alchemical Reagent's Pouch|Inventor|KT-ICB|Potionsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Instant Reactions|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|1"
+					"subclassFeature": "Instant Reactions|Inventor|KT-ICB|Potionsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -12027,11 +12027,11 @@
 				"While some may look at these weapons as the dawn of a new age, in truth wielding them is a tricky and arcane art no simpler than making them, something only the one who forged the device will every truly master, each weapon a unique piece of devastating art.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Thundersmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|1"
+					"subclassFeature": "Thundersmith's Proficiency|Inventor|KT-ICB|Thundersmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stormforged Weapon|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|1"
+					"subclassFeature": "Stormforged Weapon|Inventor|KT-ICB|Thundersmith|KT-ICB|1"
 				}
 			]
 		},
@@ -12261,15 +12261,15 @@
 				"Because few individuals would pursue such a wondrous invention without a driven purpose to their endeavour, Warsmiths tend to be Lawful, usually driven to their actions by a greater purpose they seek the power to accomplish, be it righting the wrongs of the world, or bringing it to heel beneath their ironshod boot.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|1"
+					"subclassFeature": "Warsmith's Proficiency|Inventor|KT-ICB|Warsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warplate Gauntlet|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|1"
+					"subclassFeature": "Warplate Gauntlet|Inventor|KT-ICB|Warsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Artificial Strength|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|1"
+					"subclassFeature": "Artificial Strength|Inventor|KT-ICB|Warsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -12458,11 +12458,11 @@
 				"A Fleshsmith tends to be more eccentric than inclined to any particular alignment, though even the most benevolent ones may find that the only reason their activities wouldn't be illegal is that no one considered them possible.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fleshsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|1"
+					"subclassFeature": "Fleshsmith's Proficiency|Inventor|KT-ICB|Fleshsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Thesis of Flesh|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|1"
+					"subclassFeature": "Thesis of Flesh|Inventor|KT-ICB|Fleshsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -12551,7 +12551,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Additionally at 3rd level, you can use {@classFeature Arcane Retrofit|KibbleTasty's Inventor|KT-ICB|2|KT-ICB} to transmute a bonus to attack or damage rolls on a weapon to natural weapons gained from this subclass."
+				"Additionally at 3rd level, you can use {@classFeature Arcane Retrofit|Inventor|KT-ICB|2|KT-ICB} to transmute a bonus to attack or damage rolls on a weapon to natural weapons gained from this subclass."
 			]
 		},
 		{
@@ -12606,15 +12606,15 @@
 				"A Cursesmith is not always evil, but they walk a path that dangles precariously over evil, making it an easy thing to fall into. They may be lawful, but the laws they respect are rarely those of normal mortal society that might get in the way of their dark delving.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cursesmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|1"
+					"subclassFeature": "Cursesmith's Proficiency|Inventor|KT-ICB|Cursesmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Forbidden Artifact|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|1"
+					"subclassFeature": "Forbidden Artifact|Inventor|KT-ICB|Cursesmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soul Investiture|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|1"
+					"subclassFeature": "Soul Investiture|Inventor|KT-ICB|Cursesmith|KT-ICB|1"
 				}
 			]
 		},
@@ -12858,7 +12858,7 @@
 								],
 								[
 									"13th",
-									"{@spell ichorous blood|KibblesTasty:BMS}"
+									"{@spell ichorous blood|KBMS}"
 								],
 								[
 									"17th",
@@ -12936,11 +12936,11 @@
 				"Runesmiths are not inherently good or evil, though their rigorous attention to detail and patience tend to make them more inclined to a lawful perspective.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Runesmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|1"
+					"subclassFeature": "Runesmith's Proficiency|Inventor|KT-ICB|Runesmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Runic Marks|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|1"
+					"subclassFeature": "Runic Marks|Inventor|KT-ICB|Runesmith|KT-ICB|1"
 				}
 			]
 		},
@@ -13253,11 +13253,11 @@
 				"Of course, those that walk this path tend to have strong conviction which extends beyond just their invention. A Relicsmith is as prone as any Paladin to have a driven and righteous (in their eyes) cause. Divine power in those restrained only by their own conviction can be a dangerous thing indeed.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Relicsmith's Proficiency|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|1"
+					"subclassFeature": "Relicsmith's Proficiency|Inventor|KT-ICB|Relicsmith|KT-ICB|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Relic|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|1"
+					"subclassFeature": "Divine Relic|Inventor|KT-ICB|Relicsmith|KT-ICB|1"
 				}
 			]
 		},
@@ -13684,12 +13684,12 @@
 		{
 			"name": "Gadgetsmith",
 			"subclassFeatures": [
-				"Gadgetsmith|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|1",
-				"Additional Upgrade|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
-				"Recycle Gadgets|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
-				"Gadgetsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|5",
-				"Combat Gadgets|KibbleTasty's Inventor|KT-ICB|Gadgetsmith|KT-ICB|14"
+				"Gadgetsmith|Inventor|KT-ICB|Gadgetsmith|KT-ICB|1",
+				"Additional Upgrade|Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
+				"Recycle Gadgets|Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
+				"Gadgetsmith Upgrades|Inventor|KT-ICB|Gadgetsmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Gadgetsmith|KT-ICB|5",
+				"Combat Gadgets|Inventor|KT-ICB|Gadgetsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Gadgetsmith",
@@ -13699,12 +13699,12 @@
 		{
 			"name": "Golemsmith",
 			"subclassFeatures": [
-				"Golemsmith|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|1",
-				"Intelligent Oversight|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|3",
-				"Golemsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|3",
-				"Autonomous Action|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|5",
-				"Magical Nature|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|5",
-				"Perfected Design|KibbleTasty's Inventor|KT-ICB|Golemsmith|KT-ICB|14"
+				"Golemsmith|Inventor|KT-ICB|Golemsmith|KT-ICB|1",
+				"Intelligent Oversight|Inventor|KT-ICB|Golemsmith|KT-ICB|3",
+				"Golemsmith Upgrades|Inventor|KT-ICB|Golemsmith|KT-ICB|3",
+				"Autonomous Action|Inventor|KT-ICB|Golemsmith|KT-ICB|5",
+				"Magical Nature|Inventor|KT-ICB|Golemsmith|KT-ICB|5",
+				"Perfected Design|Inventor|KT-ICB|Golemsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Golemsmith",
@@ -13714,14 +13714,14 @@
 		{
 			"name": "Infusionsmith",
 			"subclassFeatures": [
-				"Infusionsmith|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|1",
-				"Spell Manual|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
-				"Learning Spells of 1st Level and Higher|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
-				"Infuse Magic|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
-				"Infusionsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|5",
-				"Empowered Infusions|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|5",
-				"Infused Focus|KibbleTasty's Inventor|KT-ICB|Infusionsmith|KT-ICB|14"
+				"Infusionsmith|Inventor|KT-ICB|Infusionsmith|KT-ICB|1",
+				"Spell Manual|Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
+				"Learning Spells of 1st Level and Higher|Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
+				"Infuse Magic|Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
+				"Infusionsmith Upgrades|Inventor|KT-ICB|Infusionsmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Infusionsmith|KT-ICB|5",
+				"Empowered Infusions|Inventor|KT-ICB|Infusionsmith|KT-ICB|5",
+				"Infused Focus|Inventor|KT-ICB|Infusionsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Infusionsmith",
@@ -13731,11 +13731,11 @@
 		{
 			"name": "Potionsmith",
 			"subclassFeatures": [
-				"Potionsmith|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|1",
-				"Alchemical Infusions|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|3",
-				"Potionsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|3",
-				"Empowered Alchemy|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|5",
-				"Infusion Expertise|KibbleTasty's Inventor|KT-ICB|Potionsmith|KT-ICB|14"
+				"Potionsmith|Inventor|KT-ICB|Potionsmith|KT-ICB|1",
+				"Alchemical Infusions|Inventor|KT-ICB|Potionsmith|KT-ICB|3",
+				"Potionsmith Upgrades|Inventor|KT-ICB|Potionsmith|KT-ICB|3",
+				"Empowered Alchemy|Inventor|KT-ICB|Potionsmith|KT-ICB|5",
+				"Infusion Expertise|Inventor|KT-ICB|Potionsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Potionsmith",
@@ -13745,13 +13745,13 @@
 		{
 			"name": "Thundersmith",
 			"subclassFeatures": [
-				"Thundersmith|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|1",
-				"Firearms In a Campaign Setting|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|1",
-				"Thundermonger|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|3",
-				"Stormcharged vs. Thundermonger|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|3",
-				"Thundersmith Upgrades|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|3",
-				"Devastating Blasts|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|5",
-				"Unleashed Power|KibbleTasty's Inventor|KT-ICB|Thundersmith|KT-ICB|14"
+				"Thundersmith|Inventor|KT-ICB|Thundersmith|KT-ICB|1",
+				"Firearms In a Campaign Setting|Inventor|KT-ICB|Thundersmith|KT-ICB|1",
+				"Thundermonger|Inventor|KT-ICB|Thundersmith|KT-ICB|3",
+				"Stormcharged vs. Thundermonger|Inventor|KT-ICB|Thundersmith|KT-ICB|3",
+				"Thundersmith Upgrades|Inventor|KT-ICB|Thundersmith|KT-ICB|3",
+				"Devastating Blasts|Inventor|KT-ICB|Thundersmith|KT-ICB|5",
+				"Unleashed Power|Inventor|KT-ICB|Thundersmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Thundersmith",
@@ -13761,11 +13761,11 @@
 		{
 			"name": "Warsmith",
 			"subclassFeatures": [
-				"Warsmith|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|1",
-				"Warsmith's Armor|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|3",
-				"Warsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|5",
-				"Fully Customized Gear|KibbleTasty's Inventor|KT-ICB|Warsmith|KT-ICB|14"
+				"Warsmith|Inventor|KT-ICB|Warsmith|KT-ICB|1",
+				"Warsmith's Armor|Inventor|KT-ICB|Warsmith|KT-ICB|3",
+				"Warsmith Upgrades|Inventor|KT-ICB|Warsmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Warsmith|KT-ICB|5",
+				"Fully Customized Gear|Inventor|KT-ICB|Warsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Warsmith",
@@ -13775,12 +13775,12 @@
 		{
 			"name": "Fleshsmith",
 			"subclassFeatures": [
-				"Fleshsmith|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|1",
-				"Uncanny Vitality|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
-				"Arcane Bioengineering|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
-				"Fleshsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|5",
-				"Perfection of Thesis|KibbleTasty's Inventor|KT-ICB|Fleshsmith|KT-ICB|14"
+				"Fleshsmith|Inventor|KT-ICB|Fleshsmith|KT-ICB|1",
+				"Uncanny Vitality|Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
+				"Arcane Bioengineering|Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
+				"Fleshsmith Upgrades|Inventor|KT-ICB|Fleshsmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Fleshsmith|KT-ICB|5",
+				"Perfection of Thesis|Inventor|KT-ICB|Fleshsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Fleshsmith",
@@ -13790,12 +13790,12 @@
 		{
 			"name": "Cursesmith",
 			"subclassFeatures": [
-				"Cursesmith|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|1",
-				"Cursed Path|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|3",
-				"Damned Affinity|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|3",
-				"Cursesmith Upgrades|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|5",
-				"Unlimited Power|KibbleTasty's Inventor|KT-ICB|Cursesmith|KT-ICB|14"
+				"Cursesmith|Inventor|KT-ICB|Cursesmith|KT-ICB|1",
+				"Cursed Path|Inventor|KT-ICB|Cursesmith|KT-ICB|3",
+				"Damned Affinity|Inventor|KT-ICB|Cursesmith|KT-ICB|3",
+				"Cursesmith Upgrades|Inventor|KT-ICB|Cursesmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Cursesmith|KT-ICB|5",
+				"Unlimited Power|Inventor|KT-ICB|Cursesmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Cursesmith",
@@ -13805,12 +13805,12 @@
 		{
 			"name": "Runesmith",
 			"subclassFeatures": [
-				"Runesmith|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|1",
-				"Runic Flare|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|3",
-				"Runic Path|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|3",
-				"Runesmith Upgrades|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|5",
-				"Twin Flares|KibbleTasty's Inventor|KT-ICB|Runesmith|KT-ICB|14"
+				"Runesmith|Inventor|KT-ICB|Runesmith|KT-ICB|1",
+				"Runic Flare|Inventor|KT-ICB|Runesmith|KT-ICB|3",
+				"Runic Path|Inventor|KT-ICB|Runesmith|KT-ICB|3",
+				"Runesmith Upgrades|Inventor|KT-ICB|Runesmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Runesmith|KT-ICB|5",
+				"Twin Flares|Inventor|KT-ICB|Runesmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Runesmith",
@@ -13820,12 +13820,12 @@
 		{
 			"name": "Relicsmith",
 			"subclassFeatures": [
-				"Relicsmith|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|1",
-				"Ingenious Reliquary|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|3",
-				"Ordained Path|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|3",
-				"Relicsmith Upgrades|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|3",
-				"Extra Attack|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|5",
-				"Justicar Savant|KibbleTasty's Inventor|KT-ICB|Relicsmith|KT-ICB|14"
+				"Relicsmith|Inventor|KT-ICB|Relicsmith|KT-ICB|1",
+				"Ingenious Reliquary|Inventor|KT-ICB|Relicsmith|KT-ICB|3",
+				"Ordained Path|Inventor|KT-ICB|Relicsmith|KT-ICB|3",
+				"Relicsmith Upgrades|Inventor|KT-ICB|Relicsmith|KT-ICB|3",
+				"Extra Attack|Inventor|KT-ICB|Relicsmith|KT-ICB|5",
+				"Justicar Savant|Inventor|KT-ICB|Relicsmith|KT-ICB|14"
 			],
 			"source": "KT-ICB",
 			"shortName": "Relicsmith",

@@ -1,0 +1,107 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "KT-WB",
+                "abbreviation": "KT-WB",
+                "full": "KibblesTasty: Weapon Builder",
+                "authors": [
+                    "KibblesTasty"
+                ],
+                "convertedBy": [
+                    "kdezra"
+                ],
+                "version": "1.1",
+                "url": "https://www.gmbinder.com/share/-LryJUFU_dWwhVBMfRdb",
+                "color": "B97A57"
+            }
+        ],
+        "item": [
+            {
+                "name": "Finesse Spear",
+                "source": "KT-WB",
+                "type": "M",
+                "rarity": "none",
+                "value": 100,
+                "weight": 2,
+                "dmg1": "1d4",
+                "dmg2": "1d6",
+                "dmgType": "P",
+                "weapon": true,
+                "weaponCategory": "simple",
+                "property": [
+                    "F",
+                    "V"
+                ],
+                "entries": []
+            },
+            {
+                "name": "Sturdy 10-Foot Pole",
+                "source": "KT-WB",
+                "type": "M",
+                "rarity": "none",
+                "value": 10,
+                "weight": 9,
+                "dmg1": "1d6",
+                "dmgType": "B",
+                "weapon": true,
+                "weaponCategory": "simple",
+                "property": [
+                    "R",
+                    "2H"
+                ],
+                "entries": []
+            },
+            {
+                "name": "Chain",
+                "source": "KT-WB",
+                "type": "M",
+                "rarity": "none",
+                "value": 500,
+                "weight": 10,
+                "dmg1": "1d4",
+                "dmgType": "B",
+                "weapon": true,
+                "weaponCategory": "simple",
+                "property": [
+                    "R"
+                ],
+                "entries": []
+            },
+            {
+                "name": "Heavy Greatclub",
+                "source": "KT-WB",
+                "type": "M",
+                "rarity": "none",
+                "value": 30,
+                "weight": 15,
+                "dmg1": "1d10",
+                "dmgType": "B",
+                "weapon": true,
+                "weaponCategory": "simple",
+                "property": [
+                    "2H",
+                    "H"
+                ],
+                "entries": []
+            },
+            {
+                "name": "Heavy Greatclub",
+                "source": "KT-WB",
+                "type": "M",
+                "rarity": "none",
+                "value": 30,
+                "weight": 15,
+                "dmg1": "1d10",
+                "dmgType": "B",
+                "weapon": true,
+                "weaponCategory": "simple",
+                "property": [
+                    "2H",
+                    "H"
+                ],
+                "entries": []
+            }
+        ]
+    }
+}

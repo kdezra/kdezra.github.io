@@ -9,7 +9,8 @@
 					"KibblesTasty"
 				],
 				"convertedBy": [
-					"kerbs"
+					"kerbs",
+					"kdezra"
 				],
 				"version": "1.4.1",
 				"color": "7F153B",
@@ -41,6 +42,7 @@
 		{
 			"name": "Warlord",
 			"source": "KT-WlCB",
+			"reprintedAs": [ "Warlord|KCLL" ],
 			"hd": {
 				"number": 1,
 				"faces": 8
