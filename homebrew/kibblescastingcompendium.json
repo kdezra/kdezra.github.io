@@ -14109,6 +14109,74 @@
 				"ST"
 			]
 		},
+		
+		{
+			"name": "Time Slip",
+			"source": "KCC",
+			"page": 262,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a small ornate hourglass worth at least 25 gold pieces",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You surround yourself with a film of distorted time, setting yourself slightly off from time's normal flow. While you are in this bubble of distorted time, you have a +2 bonus to AC. If you would take damage from an attack or fail a saving throw against a spell of 2nd level or lower, you can use your reaction to revert your personal timeline and negate the effect — causing the attack to miss or the save to succeed. Afterward, this spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the maximum level of a spell you can negate increases to be equal to the level of the spell slot used."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
 		{
 			"name": "Time Trap",
 			"source": "KCC",

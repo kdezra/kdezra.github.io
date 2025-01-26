@@ -577,7 +577,7 @@
 				"stone forming|KCLL",
 				"water bullet|KCLL",
 				"Acid Bubble|KCLL",
-				"Aldricor's Elemental Rebuke|TAG",
+				"Aldricor's Elemental Rebuke|SCS",
 				"Animal Friendship",
 				"awaken rope|KCLL",
 				"bad blood|KCLL",
@@ -1336,7 +1336,7 @@
 				"Water Bullet|KCC",
 				"Acid Bubble|KCC",
 				"Alarm",
-				"Aldricor's Elemental Rebuke|KCLL",
+				"Aldricor's Elemental Rebuke|SCS",
 				"Arcane Ablation|KCLL",
 				"Arcane Weapon|KCLL",
 				"Arctic Breath|KCLL",
@@ -4255,7 +4255,7 @@
 							"manipulate water|KCLL"
 						],
 						"1": [
-							"Aldricor's elemental rebuke|TheArenaGuy|elemental rebuke"
+							"Aldricor's elemental rebuke|SCS|elemental rebuke"
 						],
 						"3": [
 							"entomb|KCLL"
@@ -4278,7 +4278,7 @@
 			"subclassSpells": [
 				"manipulate fire|KCLL",
 				"manipulate water|KCLL",
-				"Aldricor's elemental rebuke|TheArenaGuy|elemental rebuke",
+				"Aldricor's elemental rebuke|SCS|elemental rebuke",
 				"entomb|KCLL",
 				"cold snap|KCLL",
 				"sleet storm",
@@ -6798,7 +6798,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell Aldricor's elemental rebuke|TheArenaGuy|elemental rebuke}"
+							"{@spell Aldricor's elemental rebuke|SCS|elemental rebuke}"
 						],
 						[
 							"5th",
@@ -7692,7 +7692,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell Aldricor's elemental rebuke|TheArenaGuy|elemental rebuke}"
+							"{@spell Aldricor's elemental rebuke|SCS|elemental rebuke}"
 						],
 						[
 							"3rd",
@@ -17188,7 +17188,7 @@
 				}
 			],
 			"entries": [
-				"You learn the spell {@spell Aldricor's elemental rebuke|TheArenaGuy}. You don't need any components to cast it, and can cast it once without expending a spell slot. Once you do so, you cannot do so again until you complete a long rest. You can cast it again early be expending 2 Endurance Dice."
+				"You learn the spell {@spell Aldricor's elemental rebuke|SCS}. You don't need any components to cast it, and can cast it once without expending a spell slot. Once you do so, you cannot do so again until you complete a long rest. You can cast it again early be expending 2 Endurance Dice."
 			]
 		},
 		{
@@ -21794,8 +21794,10 @@
 		},
 		{
 			"name": "Aldricor's Elemental Rebuke",
-			"source": "SC-CCR",
+			"reprintedAs": ["Aldricor's Elemental Rebuke|SC-CCR"],
+			"source": "KCLL",
 			"page": 208,
+			"level": 1,
 			"school": "V",
 			"components": {
 				"s": true
@@ -21835,14 +21837,7 @@
 				]
 			},
 			"entries": [
-				"You manipulate some of the incoming elemental energy, harnessing its power in your hand. The damage you take from the triggering attack or effect is cut in half. You can then hurl the energy back at the creature that damaged you if it is within 60 feet of you. The creature must make a Dexterity saving throw, taking {@damage 1d8} damage of the triggering type on a failed save, or half as much damage on a successful one.",
-				{
-					"type": "inset",
-					"name": "TAG Credit",
-					"entries": [
-						"Aldricor's Elemental Rebuke is drawn from Spectre Creations Caliya's Chronicle of Runes."
-					]
-				}
+				"You manipulate some of the incoming elemental energy, harnessing its power in your hand. The damage you take from the triggering attack or effect is cut in half. You can then hurl the energy back at the creature that damaged you if it is within 60 feet of you. The creature must make a Dexterity saving throw, taking {@damage 1d8} damage of the triggering type on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -36957,7 +36952,9 @@
 		{
 			"name": "Time Slip",
 			"source": "KCLL",
-			"level": 262,
+			"reprintedAs": [ "Time Slip|KCC" ],
+			"page": 262,
+			"level": 2,
 			"school": "T",
 			"time": [
 				{
