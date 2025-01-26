@@ -9679,7 +9679,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -9727,7 +9728,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -9766,7 +9768,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -9817,7 +9820,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -9859,7 +9863,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -9895,7 +9900,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5 feet"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
@@ -10444,7 +10450,8 @@
 			"page": 38
 		},
 		{
-			"name": "Thunderbust Mine",
+			"name": "Thunderburst Mine",
+			"reprintedAs": [ "Thunderburst Mine|KCC" ],
 			"level": 2,
 			"school": "A",
 			"time": [
