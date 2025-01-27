@@ -1,0 +1,168 @@
+
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SC-CCR",
+				"abbreviation": "SC-CCR",
+				"full": "Spectre Creations: Caliya's Chronicle of Runes", 
+				"authors": [
+					"Spectre Creations"
+				],
+				"convertedBy": [
+					"kdezra"
+				],
+				"version": "1",
+				"url": "https://www.spectrecreations.com/",
+				"color": "977916"
+			}
+		],
+		"dateAdded": 1737750245,
+		"dateLastModified": 1737750245,
+		"edition": "classic"
+	},
+	"spell": [
+		{
+			"name": "Aldricor's Elemental Rebuke",
+			"source": "SC-CCR",
+			"page": 208,
+			"level": 1,
+			"school": "V",
+			"components": {
+				"s": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you take acid, cold, fire, lightning, or thunder damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spellblade",
+						"source": "KCLL"
+					}
+				]
+			},
+			"entries": [
+				"You manipulate some of the incoming elemental energy, harnessing its power in your hand. The damage you take from the triggering attack or effect is cut in half. You can then hurl the energy back at the creature that damaged you if it is within 60 feet of you. The creature must make a Dexterity saving throw, taking {@damage 1d8} damage of the triggering type on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Star Splinter",
+			"source": "<abbr>",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 0,
+					"unit": "<timeunit>"
+				}
+			],
+			"range": {
+				"type": "<range>"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "<false|material>"
+			},
+			"duration": [
+				{
+					"type": "<type>",
+					"duration": {
+						"type": "<timedurationunit>",
+						"amount": 0
+					}
+				}
+			],
+			"entries": [
+				"<entrylistitem>"
+			],
+			"damageInflict": [
+				"<damagetype>"
+			],
+			"savingThrow": [
+				"<save>"
+			],
+			"areaTags": [
+				"<tag>"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "<classname>",
+						"source": "<sourceabbr>"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "<classname>",
+							"source": "<sourceabbr>"
+						},
+						"subclass": {
+							"name": "<classname>",
+							"shortName": "<shortclassname>",
+							"source": "<sourceabbr>"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "<racename>",
+					"source": "<sourceabbr>",
+					"baseName": "<baseracename>",
+					"baseSource": "<sourceabbr>"
+				}
+			]
+		}
+	]
+}
+
