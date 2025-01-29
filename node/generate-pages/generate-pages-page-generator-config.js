@@ -1,5 +1,4 @@
 import {PAGE_GENERATORS_LISTPAGE} from "./generate-pages-page-generator-config-list.js";
-import {PAGE_GENERATORS_REDIRECT} from "./generate-pages-page-generator-config-redirect.js";
 import {PAGE_GENERATORS_ADVENTURE_BOOK} from "./generate-pages-page-generator-config-advbook.js";
 import {PageGeneratorGeneric} from "./generate-pages-page-generator.js";
 import {PAGE_GENERATORS_TABLEPAGE} from "./generate-pages-page-generator-config-tablepage.js";
@@ -308,7 +307,6 @@ class _PageGeneratorStatgen extends PageGeneratorGeneric {
 
 export const PAGE_GENERATORS = 	[
 	...PAGE_GENERATORS_LISTPAGE,
-	...PAGE_GENERATORS_REDIRECT,
 	...PAGE_GENERATORS_ADVENTURE_BOOK,
 	...PAGE_GENERATORS_TABLEPAGE,
 	...PAGE_GENERATORS_MANAGER,
