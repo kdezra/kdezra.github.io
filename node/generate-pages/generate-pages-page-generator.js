@@ -69,22 +69,6 @@ export class PageGeneratorBase {
 	}
 }
 
-export class PageGeneratorRedirectBase extends PageGeneratorBase {
-	_filename = "page/template-page-redirect.hbs";
-
-	_redirectHref;
-	_redirectMessage;
-
-	_getData () {
-		return {
-			...super._getData(),
-
-			redirectHref: this._redirectHref,
-			redirectMessage: this._redirectMessage,
-		};
-	}
-}
-
 /** @abstract */
 export class PageGeneratorGeneric extends PageGeneratorBase {
 	_scriptsLibAdditional;

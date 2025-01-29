@@ -1,0 +1,399 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AAES",
+				"abbreviation": "AAES",
+				"full": "Advanced Arcanum 5e Expanded Spells",
+				"authors": [
+					"Epinephrine"
+				],
+				"convertedBy": [
+					"kdezra"
+				],
+				"version": "1",
+				"url": "https://www.gmbinder.com/share/-M-DKproim0lJaB0cVTn",
+				"color": "FFE0B2"
+			}
+		],
+		"dateAdded": 1737750245,
+		"dateLastModified": 1737750245,
+		"edition": "classic"
+	},
+	"spell": [
+		{
+			"name": "Acid Dart",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You hurl a shimmering green dart of acidic energy at a target within range. Make a ranged spell attack. On a hit, the target takes {@damage 1d4} acid damage immediately and an additional {@damage 1d4} acid damage at the start of your next turn.",
+                "The spell’s damage (both initial and subsequent) increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}, {@damage 2d4}), 11th level ({@damage 3d4}, {@damage 3d4}), and 17th level ({@damage 4d4}, {@damage 4d4})."
+            ],
+			"damageInflict": [
+				"acid"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "spellAttack": [
+                "M"
+            ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+        {
+			"name": "Electric Charge",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Sparks of lightning leap from your outstretched hand. Make a ranged spell attack against a single creature. On a hit, the target takes {@damage 1d8} lightning damage. If you cast this cantrip during your last turn, the sparks build and the size of all the damage dice for this cantrip increases to {@damage 1d10}. It increases to {@damage 1d12} the turn after if you cast it again. If you did not cast this cantrip during your last turn, the damage dice resets to d8.",
+                "This spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"damageInflict": [
+				"lightning"
+			],
+            "spellAttack": [
+                "M"
+            ],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+        {
+			"name": "Glacial Blade",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+                    "amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails.",
+                "On a hit, the target suffers the attack's normal effects, and any weapon it wields is encased in a brittle sheath of ice until the start of your next turn. If the target uses its action to make an attack with a weapon, it immediately takes {@damage 1d8} cold damage, and the spell ends.",
+                "At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target, and the damage the target takes for making a weapon attack increases to {@damage 2d8}. Both damage rolls increase by {@damage 1d8} at 11th level and 17th level."
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"areaTags": [
+				"ST"
+			],
+            "spellAttack": [
+                "M"
+            ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Miasmic Blade",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and a cloud of malodorous gas fills a 5-foot space centered on the target until the start of your next turn. Any creature that ends their turn in this cloud takes {@damage 1d8} poison damage.",
+                "At 5th level, the weapon attack deals an extra {@damage 1d8} poison damage to the target, and the damage from the gas cloud increases to {@damage 2d8}. Both damage rolls increase by {@damage 1d8} at 11th level and 17th level."
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"<save>"
+			],
+            "spellAttack": [
+                "M"
+            ],
+			"areaTags": [
+				"ST",
+                "MT",
+                "S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scourge",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A dark green energy shoots from the tip of your finger and infects the target. Make a ranged spell attack against a single target, dealing {@damage 1d8} poison damage on a successful attack. If the target has any temporary hit points, this cantrip removes all of these hit points before dealing damage. A creature immune to poison is also immune to this effect.",
+                "This spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Warcry",
+			"source": "AAES",
+            "page": 1,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You let out a howl that can heard up to 100 feet away. Each creature in a 10-foot cone must succeed on a Constitution saving throw or take {@damage 1d6} thunder damage and become deafened until the start of your next turn.",
+                "This spell's damage increases by {@damage 1d6} when you reach 5th level ({@damage 2d6}), 11th ({@damage 3d6}), and 17th ({@damage 4d6})."
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"con"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

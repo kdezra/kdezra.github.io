@@ -8,6 +8,23 @@
 
 	<title>{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}</title>
 
+	<!-- Primary Meta Tags -->
+	<title>{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}</title>
+	<meta name="title" content="{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}" />
+	<meta name="description" content="{{pageDescription}}" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https:/kdezra.github.io/" />
+	<meta property="og:title" content="{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}" />
+	<meta property="og:description" content="{{pageDescription}}" />
+	<meta property="og:image" content="icon-192.png" />
+
+	<meta property="twitter:card" content="summary" />
+	<meta property="og:url" content="https:/kdezra.github.io/" />
+	<meta property="twitter:title" content="{{#if pageTitle}}{{pageTitle}}{{else}}5etools{{/if}}" />
+	<meta property="twitter:description" content="{{pageDescription}}" />
+	<meta property="og:image" content="icon-192.png" />
+
 	<link rel="stylesheet" href="css/bootstrap.css">
 {{#if isFontAwesome}}	<link rel="stylesheet" href="css/fontawesome.css">
 {{/if}}
@@ -36,10 +53,6 @@
 	<link rel="search" href="open-search.xml" title="Search 5etools" type="application/opensearchdescription+xml">
 	
 	<script type="text/javascript" src="js/styleswitch.js"></script>
-{{#if redirectHref}}
-	<meta http-equiv="refresh" content="0; URL={{redirectHref}}"/>
-{{else}}
 	<script type="text/javascript" src="js/navigation.js"></script>
 	<script type="text/javascript" src="js/browsercheck.js"></script>
-{{/if}}
 </head>
