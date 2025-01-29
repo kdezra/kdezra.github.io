@@ -1,5 +1,3 @@
-
-
 {
 	"_meta": {
 		"sources": [
@@ -1883,7 +1881,9 @@
 			"page": 13,
 			"level": 1,
 			"school": "E",
-			"subschool": [ "curse" ],
+			"subschool": [
+				"curse"
+			],
 			"time": [
 				{
 					"number": 1,
@@ -14109,7 +14109,6 @@
 				"ST"
 			]
 		},
-		
 		{
 			"name": "Time Slip",
 			"source": "KCC",
@@ -14147,7 +14146,7 @@
 				}
 			],
 			"entries": [
-				"You surround yourself with a film of distorted time, setting yourself slightly off from time's normal flow. While you are in this bubble of distorted time, you have a +2 bonus to AC. If you would take damage from an attack or fail a saving throw against a spell of 2nd level or lower, you can use your reaction to revert your personal timeline and negate the effect — causing the attack to miss or the save to succeed. Afterward, this spell ends."
+				"You surround yourself with a film of distorted time, setting yourself slightly off from time's normal flow. While you are in this bubble of distorted time, you have a +2 bonus to AC. If you would take damage from an attack or fail a saving throw against a spell of 2nd level or lower, you can use your reaction to revert your personal timeline and negate the effect \u2014 causing the attack to miss or the save to succeed. Afterward, this spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -19273,4 +19272,3 @@
 		}
 	]
 }
-

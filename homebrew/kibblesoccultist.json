@@ -36,862 +36,13 @@
 		"_dateLastModifiedHash": "0187e8b21a",
 		"edition": "classic"
 	},
-	"class": [
-		{
-			"name": "Occultist",
-			"source": "KT-OCB",
-			"page": 1,
-			"reprintedAs": [
-				"Occultist|KCLL"
-			],
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
-			"proficiency": [
-				"wis",
-				"cha"
-			],
-			"spellcastingAbility": "wis",
-			"casterProgression": "full",
-			"startingProficiencies": {
-				"armor": [
-					"light"
-				],
-				"weapons": [
-					"{@item dagger|phb|Daggers}",
-					"{@item quarterstaff|phb|quarterstaffs}",
-					"{@item light crossbow|phb|light crossbows}"
-				],
-				"tools": [
-					"{@item Herbalism kit|PHB}"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"animal handling",
-								"arcana",
-								"deception",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"religion",
-								"sleight of hand",
-								"stealth",
-								"survival"
-							],
-							"count": 2
-						}
-					}
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) a {@item quarterstaff|phb}, (b) a {@item dagger|phb}, or (c) one {@filter simple weapon|items|source=PHB|type=simple weapon}",
-					"(a) a {@item component pouch|phb} or (b) an {@item occult fetish|KT-OCB}",
-					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"(a) {@item leather armor|phb}, or (b) {@item scale mail|phb}, (if proficient)",
-					"A {@item Herbalism kit|phb}."
-				],
-				"defaultData": [
-					{
-						"a": [
-							"quarterstaff|phb"
-						],
-						"b": [
-							"dagger|phb"
-						],
-						"c": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						]
-					},
-					{
-						"a": [
-							"component pouch|phb"
-						],
-						"b": [
-							"occult fetish|KT-OCB"
-						]
-					},
-					{
-						"a": [
-							"scholar's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"a": [
-							"leather armor|phb"
-						],
-						"b": [
-							"scale mail|phb"
-						]
-					},
-					{
-						"_": [
-							"Herbalism kit|phb"
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"wis": 13
-				},
-				"proficienciesGained": {
-					"skills": [
-						{
-							"medicine": true
-						}
-					],
-					"tools": [
-						"Herbalism kit"
-					]
-				}
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"{@filter Occult Rites|optionalfeatures|feature type=ktor}",
-						"{@filter Cantrips Known|spells|level=0|class=Occultist (KT-OCB)}",
-						"{@filter Spells Known|spells|class=Occultist (KT-OCB)}"
-					],
-					"rows": [
-						[
-							0,
-							3,
-							3
-						],
-						[
-							2,
-							3,
-							4
-						],
-						[
-							2,
-							3,
-							5
-						],
-						[
-							2,
-							3,
-							6
-						],
-						[
-							3,
-							4,
-							7
-						],
-						[
-							3,
-							4,
-							8
-						],
-						[
-							4,
-							4,
-							9
-						],
-						[
-							4,
-							4,
-							10
-						],
-						[
-							5,
-							4,
-							11
-						],
-						[
-							5,
-							5,
-							12
-						],
-						[
-							5,
-							5,
-							13
-						],
-						[
-							6,
-							5,
-							14
-						],
-						[
-							6,
-							5,
-							15
-						],
-						[
-							6,
-							5,
-							16
-						],
-						[
-							7,
-							5,
-							17
-						],
-						[
-							7,
-							5,
-							18
-						],
-						[
-							7,
-							5,
-							19
-						],
-						[
-							8,
-							5,
-							20
-						],
-						[
-							8,
-							5,
-							20
-						],
-						[
-							8,
-							5,
-							20
-						]
-					]
-				},
-				{
-					"title": "Spell Slots per Spell Level",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Occultist (KT-OCB)}",
-						"{@filter 2nd|spells|level=2|class=Occultist (KT-OCB)}",
-						"{@filter 3rd|spells|level=3|class=Occultist (KT-OCB)}",
-						"{@filter 4th|spells|level=4|class=Occultist (KT-OCB)}",
-						"{@filter 5th|spells|level=5|class=Occultist (KT-OCB)}",
-						"{@filter 6th|spells|level=6|class=Occultist (KT-OCB)}",
-						"{@filter 7th|spells|level=7|class=Occultist (KT-OCB)}",
-						"{@filter 8th|spells|level=8|class=Occultist (KT-OCB)}",
-						"{@filter 9th|spells|level=9|class=Occultist (KT-OCB)}"
-					],
-					"rows": [
-						[
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							1,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							3,
-							2,
-							2,
-							1,
-							1
-						]
-					]
-				}
-			],
-			"classFeatures": [
-				"Spellcasting|Occultist|KT-OCB|1",
-				{
-					"classFeature": "Occult Tradition|Occultist|KT-OCB|1",
-					"gainSubclassFeature": true
-				},
-				"Occult Rites|Occultist|KT-OCB|2",
-				{
-					"classFeature": "Occult Tradition feature|Occultist|KT-OCB|3",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Occultist|KT-OCB|4",
-				{
-					"classFeature": "Occult Tradition feature|Occultist|KT-OCB|6",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Occultist|KT-OCB|8",
-				"Traditional Expertise|Occultist|KT-OCB|10",
-				"Ability Score Improvement|Occultist|KT-OCB|12",
-				{
-					"classFeature": "Occult Tradition feature|Occultist|KT-OCB|14",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Occultist|KT-OCB|16",
-				"Ability Score Improvement|Occultist|KT-OCB|19",
-				"The Old Ways|Occultist|KT-OCB|20"
-			],
-			"subclassTitle": "Occult Tradition",
-			"classSpells": [
-				"Acid Splash",
-				"burn|kcc",
-				"Chill Touch",
-				"create bonfire|xge",
-				"decaying touch|kcc",
-				"Dancing Lights",
-				"Druidcraft",
-				"fists of fire|kcc",
-				"freeze|kcc",
-				"frostbite|xge",
-				"Guidance",
-				"gust|xge",
-				"ice weapon|kcc",
-				"illusionary dart|kcc",
-				"infestation|xge",
-				"impact|kcc",
-				"Light",
-				"lightning lure|tce",
-				"magic stone|xge",
-				"Mending",
-				"Message",
-				"Minor Illusion",
-				"mold earth|xge",
-				"Poison Spray",
-				"primal savagery|xge",
-				"Produce Flame",
-				"Resistance",
-				"rock slam|kcc",
-				"shape water|xge",
-				"shocking grasp",
-				"Thorn Whip",
-				"absorb elements|xge",
-				"Animal Friendship",
-				"awaken rope|kcc",
-				"bad blood|kcc",
-				"Bane",
-				"beast bond|xge",
-				"blade mirage|kcc",
-				"bramble binding|kcc",
-				"Burning Hands",
-				"cause fear|xge",
-				"ceremony|xge",
-				"Comprehend Languages",
-				"Cure Wounds",
-				"crippling agony|kcc",
-				"Detect Magic",
-				"Detect Poison and Disease",
-				"Disguise Self",
-				"Dissonant Whispers",
-				"electrify|kcc",
-				"Feather Fall",
-				"Fog Cloud",
-				"gale bolt|kcc",
-				"grip of the dead|kcc",
-				"Hail of Thorns",
-				"hex",
-				"ice knife|xge",
-				"Identify",
-				"Illusory Script",
-				"illusory pit|kcc",
-				"Inflict Wounds",
-				"induce headache|kcc",
-				"karmic reflection|kcc",
-				"lightning tendril|kcc",
-				"nauseating poison|kcc",
-				"prismatic flash|kcc",
-				"Ray of Sickness",
-				"Speak with Animals",
-				"spiritual consultation|kcc",
-				"stone fist|kcc",
-				"tasha's caustic brew|tce",
-				"Tasha's Hideous Laughter",
-				"Unseen Servant",
-				"water blast|kcc",
-				"Alter Self",
-				"alacrity|kcc",
-				"Animal Messenger",
-				"dancing objects (animate object)|kcc",
-				"Augury",
-				"Barkskin",
-				"become fire|kcc",
-				"become stone|kcc",
-				"become water|kcc",
-				"become wind|kcc",
-				"Blindness/Deafness",
-				"boil blood|kcc",
-				"bramble barrier|kcc",
-				"Calm Emotions",
-				"clay touch|kcc",
-				"crackle|kcc",
-				"dancing wave|kcc",
-				"Darkness",
-				"Darkvision",
-				"Detect Thoughts",
-				"disorient|kcc",
-				"earth ripple|kcc",
-				"form of familiar|kcc",
-				"Enhance Ability",
-				"Enlarge/Reduce",
-				"Gentle Repose",
-				"healing spirit|xge",
-				"Heat Metal",
-				"Hold Person",
-				"hurricane slash|kcc",
-				"Invisibility",
-				"imbue luck|kcc",
-				"Lesser Restoration",
-				"Locate Object",
-				"Melf's Acid Arrow",
-				"Mirror Image",
-				"Misty Step",
-				"poison dart|kcc",
-				"Protection from Poison",
-				"Scorching Ray",
-				"See Invisibility",
-				"shadow blade|xge",
-				"Silence",
-				"Spider Climb",
-				"Spike Growth",
-				"Suggestion",
-				"summon beast|tce",
-				"summon swarm|kcc",
-				"Web",
-				"vacuum pull|kcc",
-				"vicious hound|kt:o",
-				"vicious vapors|kcc",
-				"animate shadow|kcc",
-				"Bestow Curse",
-				"Blink",
-				"catnap|xge",
-				"Clairvoyance",
-				"Counterspell",
-				"cruel puppetry|kcc",
-				"Dispel Magic",
-				"erode|kcc",
-				"Fear",
-				"Fly",
-				"Gaseous Form",
-				"Haste",
-				"hungering void|kcc",
-				"Hypnotic Pattern",
-				"illusionary fireball|kcc",
-				"life transference|xge",
-				"Magic Circle",
-				"mutate|kcc",
-				"Nondetection",
-				"Plant Growth",
-				"quick sand|kcc",
-				"rain of spiders|kcc",
-				"Remove Curse",
-				"Sending",
-				"Sleet Storm",
-				"Slow",
-				"spider bite|kcc",
-				"Spirit Guardians",
-				"summon monstrosity|kcc",
-				"summon undead|tce",
-				"Vampiric Touch",
-				"vortex blast|kcc",
-				"wall of water|xge",
-				"Water Breathing",
-				"Water Walk",
-				"Wind Wall",
-				"wither|kcc",
-				"Arcane Eye",
-				"Banishment",
-				"Blight",
-				"charm monster|xge",
-				"Compulsion",
-				"Confusion",
-				"Conjure Minor Elementals",
-				"Conjure Woodland Beings",
-				"Control Water",
-				"devour shadow|kcc",
-				"Divination",
-				"echoing lance|kcc",
-				"elemental bane|xge",
-				"Evard's Black Tentacles",
-				"Giant Insect",
-				"Greater Invisibility",
-				"Hallucinatory Terrain",
-				"Ice Storm",
-				"Leomund's Secret Chest",
-				"Locate Creature",
-				"Polymorph",
-				"poison puff|kcc",
-				"shadow of moil|xge",
-				"stinging swarm|kcc",
-				"stone coffin|kcc",
-				"suffocate|kcc",
-				"summon elemental|tce",
-				"vitriolic sphere|xge",
-				"Wall of Fire",
-				"watery sphere|xge",
-				"acid rain|kcc",
-				"Animate Objects",
-				"Awaken",
-				"Cloudkill",
-				"Commune with Nature",
-				"Conjure Elemental",
-				"Contact Other Plane",
-				"Contagion",
-				"danse macabre|xge",
-				"deglove creature|kcc",
-				"Dominate Person",
-				"Dream",
-				"enervation|xge",
-				"field of stars|kcc",
-				"Geas",
-				"Greater Restoration",
-				"Hold Monster",
-				"Insect Plague",
-				"Mass Cure Wounds",
-				"Mislead",
-				"Modify Memory",
-				"negative energy flood|xge",
-				"Reincarnate",
-				"Scrying",
-				"Seeming",
-				"sonic shriek|kcc",
-				"skill empowerment|xge",
-				"sudden hazards|kcc",
-				"transmute rock|xge",
-				"Wall of Stone",
-				"baba's walking hut|kcc",
-				"bones of the earth|xge",
-				"Conjure Fey",
-				"Contingency",
-				"create homunculus|xge",
-				"Eyebite",
-				"Find the Path",
-				"Flesh to stone",
-				"Forbiddance",
-				"Harm",
-				"Heal",
-				"Magic Jar",
-				"mass suggestion|xge",
-				"mental prison|xge",
-				"Move Earth",
-				"Otiluke's Freezing Sphere",
-				"primordial ward|xge",
-				"soul cage|xge",
-				"Sunbeam",
-				"tasha's otherworldly guise|tce",
-				"True Seeing",
-				"Wall of Ice",
-				"Wall of Thorns",
-				"Wind Walk",
-				"Finger of Death",
-				"Fire Storm",
-				"Mirage Arcane",
-				"Plane Shift",
-				"power word pain|xge",
-				"Prismatic Spray",
-				"Project Image",
-				"Regenerate",
-				"Resurrection",
-				"Sequester",
-				"Teleport",
-				"twisting eruption|kcc",
-				"whirlwind|xge",
-				"abi-dalzim's horrid wilting|xge",
-				"Animal Shapes",
-				"Antipathy/Sympathy",
-				"Clone",
-				"Control Weather",
-				"Demiplane",
-				"Dominate Monster",
-				"Earthquake",
-				"Feeblemind",
-				"Incendiary Cloud",
-				"maddening darkness|xge",
-				"Maze",
-				"Mind Blank",
-				"Power Word Stun",
-				"Tsunami",
-				"Astral Projection",
-				"Foresight",
-				"Imprisonment",
-				"invulnerability|xge",
-				"manipulate fate|kcc",
-				"Power Word Heal",
-				"Power Word Kill",
-				"psychic scream|xge",
-				"True Polymorph",
-				"True Resurrection",
-				"Shapechange",
-				"Weird"
-			],
-			"optionalfeatureProgression": [
-				{
-					"featureType": [
-						"KT:OR"
-					],
-					"name": "Occult Rites",
-					"progression": {
-						"2": 2,
-						"5": 3,
-						"7": 4,
-						"9": 5,
-						"12": 6,
-						"15": 7,
-						"18": 8
-					}
-				}
-			],
-			"cantripProgression": [
-				3,
-				3,
-				3,
-				3,
-				4,
-				4,
-				4,
-				4,
-				4,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5,
-				5
-			],
-			"spellsKnownProgression": [
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				22
-			],
-			"hasFluff": true
-		}
-	],
 	"classFeature": [
 		{
 			"name": "Spellcasting",
 			"source": "KT-OCB",
 			"page": 3,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 1,
 			"entries": [
 				"As a practioner of occult magic, you have inherited and developed techniques to manipulate reality through mediums of rituals, spirits, elements, and more. See {@book Spells Rules|PHB|10} for the general rules of spellcasting and the Spells Listing for the {@filter Occultist spell list|spells|class=Occultist}.",
@@ -976,7 +127,7 @@
 			"source": "KT-OCB",
 			"page": 3,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 1,
 			"entries": [
 				"Choose an occult tradition, shaping your the techniques, features, and rites available to you from the following: Oracle, Shaman, or Witch.",
@@ -988,7 +139,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 2,
 			"entries": [
 				"As you delve into your Tradition of occult magic, you find deviations and branches to explore that help you specialize and perfect your craft in the way that best suits you.",
@@ -1015,7 +166,7 @@
 			"source": "KT-OCB",
 			"page": 3,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you gain a feature from your Occult Tradition."
@@ -1026,7 +177,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1038,7 +189,7 @@
 			"source": "KT-OCB",
 			"page": 3,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature from your Occult Tradition."
@@ -1049,7 +200,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1061,7 +212,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 10,
 			"entries": [
 				"Starting at 10th level, your passed down knowledge of tradition gives you expertise in a skill of your tradition; choose one of your skill proficiencies from {@skill Animal Handling}, {@skill Arcana}, {@skill Medicine}, {@skill Nature}, {@skill Survival}. Your Proficiency Bonus is doubled for any ability check you make that use of the chosen Proficiency. If you have proficiency in none of the selected skills, you can instead gain proficiency in one of your choice.",
@@ -1101,7 +252,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1113,7 +264,7 @@
 			"source": "KT-OCB",
 			"page": 3,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature from your Occult Tradition."
@@ -1124,7 +275,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1136,7 +287,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1148,7 +299,7 @@
 			"source": "KT-OCB",
 			"page": 4,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"level": 20,
 			"entries": [
 				"At 20th level, your mastery of ritual and tradition is extensive and unparalleled, you've unlocked ancient secrets and perfected techniques to master rituals completely. Any Occultist spell you know of 3rd level or lower becomes a ritual spell for you. When you cast a spell without the ritual tag as a ritual, it requires additional consumed material components worth 10 gold per level of the spell.",
@@ -1185,7 +336,9 @@
 	"item": [
 		{
 			"name": "Occult Fetish",
-			"reprintedAs": ["Occult Fetish|KCLL"],
+			"reprintedAs": [
+				"Occult Fetish|KCLL"
+			],
 			"source": "KT-OCB",
 			"page": 3,
 			"type": "SCF",
@@ -1831,7 +984,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "level=0|class=occultist (kt:o)",
+								"choose": "level=0|class=occultist (kcll)",
 								"count": 1
 							}
 						]
@@ -2199,7 +1352,7 @@
 					"known": {
 						"_": [
 							{
-								"choose": "class=occultist (kt:o)",
+								"choose": "class=occultist (kcll)",
 								"count": 1
 							}
 						]
@@ -3773,7 +2926,7 @@
 				}
 			],
 			"entries": [
-				"As an action you can detonate a {@subclassFeature Call Spirit|Occultist|kt:o|Shaman|kt:o|1|kt:o|manifested spirit}, causing it to erupt in flare of power. All creatures within 10 feet of it must make a Dexterity saving throw. A target takes damage equal to twice the manifested damage of spirit on a failed save. If the spirit was empowered with a spell slot, a target takes half as much damage on a successful one. The spirit is immediately released and disappears."
+				"As an action you can detonate a {@subclassFeature Call Spirit|occultist|kcll|Shaman|kcll|1|kcll|manifested spirit}, causing it to erupt in flare of power. All creatures within 10 feet of it must make a Dexterity saving throw. A target takes damage equal to twice the manifested damage of spirit on a failed save. If the spirit was empowered with a spell slot, a target takes half as much damage on a successful one. The spirit is immediately released and disappears."
 			],
 			"foundrySystem": {
 				"activation.type": "action",
@@ -3849,7 +3002,7 @@
 				}
 			],
 			"entries": [
-				"You gain the ability to infuse your weapon with the power granted to you by the spirits. While you have an {@subclassFeature Empowered Spirits|Occultist|kt:o|Shaman|kt:o|3|kt:o|empowered spirit} bonded, you can pour all of its energy into your weapon (recalling it if it is manifested). The next attack with that weapon adds twice the additional damage from the spirit, but the bond immediately expires."
+				"You gain the ability to infuse your weapon with the power granted to you by the spirits. While you have an {@subclassFeature Empowered Spirits|Occultist|kcll|Shaman|kcll|3|kcll|empowered spirit} bonded, you can pour all of its energy into your weapon (recalling it if it is manifested). The next attack with that weapon adds twice the additional damage from the spirit, but the bond immediately expires."
 			],
 			"foundrySystem": {
 				"activation.type": "special",
@@ -3885,7 +3038,7 @@
 				}
 			],
 			"entries": [
-				"When you expend a spell slot to empower a spirit with your {@subclassFeature Empowered Spirits|Occultist|kt:o|Shaman|kt:o|3|kt:o} feature, you can select a number of skills equal to the spell slot expended that the spirit is proficient in. While it is not manifested, you gain proficiency with these skills. If you expend a spell slot of 5th level or higher, you can exchange three of the skills the spirit gaining expertise in one skill."
+				"When you expend a spell slot to empower a spirit with your {@subclassFeature Empowered Spirits|Occultist|kcll|Shaman|kcll|3|kcll} feature, you can select a number of skills equal to the spell slot expended that the spirit is proficient in. While it is not manifested, you gain proficiency with these skills. If you expend a spell slot of 5th level or higher, you can exchange three of the skills the spirit gaining expertise in one skill."
 			]
 		},
 		{
@@ -4945,7 +4098,9 @@
 	"spell": [
 		{
 			"name": "Vicious Hound",
-			"reprintedAs": [ "Vicious Hound|KCC" ],
+			"reprintedAs": [
+				"Vicious Hound|KCC"
+			],
 			"source": "KT-OCB",
 			"page": 32,
 			"level": 2,
@@ -5022,7 +4177,7 @@
 			"source": "KT-OCB",
 			"page": 5,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5057,7 +4212,7 @@
 			"source": "KT-OCB",
 			"page": 5,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5072,7 +4227,7 @@
 			"source": "KT-OCB",
 			"page": 5,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5083,7 +4238,7 @@
 			"source": "KT-OCB",
 			"page": 5,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5098,7 +4253,7 @@
 			"source": "KT-OCB",
 			"page": 5,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5217,7 +4372,7 @@
 			"source": "KT-OCB",
 			"page": 6,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 3,
@@ -5255,7 +4410,7 @@
 			"source": "KT-OCB",
 			"page": 6,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 6,
@@ -5284,7 +4439,7 @@
 			"source": "KT-OCB",
 			"page": 6,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Witch",
 			"subclassSource": "KT-OCB",
 			"level": 14,
@@ -5300,7 +4455,7 @@
 			"source": "KT-OCB",
 			"page": 8,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5329,9 +4484,9 @@
 			"source": "KT-OCB",
 			"page": 9,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
-			"subclassSource": "KT-OCB",
+			"subclassSource": "KCLL",
 			"level": 1,
 			"header": 1
 		},
@@ -5340,9 +4495,9 @@
 			"source": "KT-OCB",
 			"page": 8,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
-			"subclassSource": "KT-OCB",
+			"subclassSource": "KCLL",
 			"level": 1,
 			"header": 1,
 			"entries": [
@@ -5392,7 +4547,7 @@
 			"source": "KT-OCB",
 			"page": 8,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5424,7 +4579,7 @@
 			"source": "KT-OCB",
 			"page": 8,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 3,
@@ -5439,7 +4594,7 @@
 			"source": "KT-OCB",
 			"page": 8,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 3,
@@ -5455,7 +4610,7 @@
 			"source": "KT-OCB",
 			"page": 9,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 6,
@@ -5471,7 +4626,7 @@
 			"source": "KT-OCB",
 			"page": 9,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 6,
@@ -5486,7 +4641,7 @@
 			"source": "KT-OCB",
 			"page": 9,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Hedge Mage",
 			"subclassSource": "KT-OCB",
 			"level": 14,
@@ -5508,7 +4663,7 @@
 			"source": "KT-OCB",
 			"page": 10,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5571,7 +4726,7 @@
 			"source": "KT-OCB",
 			"page": 10,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5586,7 +4741,7 @@
 			"source": "KT-OCB",
 			"page": 10,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5597,7 +4752,7 @@
 			"source": "KT-OCB",
 			"page": 10,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5646,7 +4801,7 @@
 			"source": "KT-OCB",
 			"page": 10,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5696,7 +4851,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 3,
@@ -5727,7 +4882,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 6,
@@ -5755,7 +4910,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Oracle",
 			"subclassSource": "KT-OCB",
 			"level": 14,
@@ -5773,7 +4928,7 @@
 			"source": "KT-OCB",
 			"page": 13,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5803,7 +4958,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5814,7 +4969,7 @@
 			"source": "KT-OCB",
 			"page": 13,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5840,7 +4995,7 @@
 			"source": "KT-OCB",
 			"page": 13,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 1,
@@ -5875,7 +5030,7 @@
 			"source": "KT-OCB",
 			"page": 13,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 3,
@@ -5937,7 +5092,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 6,
@@ -5953,7 +5108,7 @@
 			"source": "KT-OCB",
 			"page": 11,
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"subclassShortName": "Shaman",
 			"subclassSource": "KT-OCB",
 			"level": 14,
@@ -5971,115 +5126,6 @@
 	],
 	"subclass": [
 		{
-			"name": "Tradition of the Witch",
-			"shortName": "Witch",
-			"source": "KT-OCB",
-			"page": 5,
-			"subclassFeatures": [
-				"Tradition of the Witch|Occultist|KT-OCB|Witch|KT-OCB|1",
-				"Familiar Bond|Occultist|KT-OCB|Witch|KT-OCB|3",
-				"Witch's Touch|Occultist|KT-OCB|Witch|KT-OCB|6",
-				"Master of Curses|Occultist|KT-OCB|Witch|KT-OCB|14"
-			],
-			"className": "Occultist",
-			"classSource": "KT-OCB",
-			"additionalSpells": [
-				{
-					"name": "Black Coven",
-					"known": {
-						"1": [
-							"find familiar",
-							{
-								"choose": "level=0|class=occultist (kt:o)",
-								"count": 2
-							},
-							"rotting curse|kcc",
-							"arms of hadar"
-						],
-						"3": [
-							"blindness/deafness",
-							"darkness"
-						],
-						"5": [
-							"animate shadow|kcc",
-							"summon shadowspawn|tce"
-						],
-						"7": [
-							"blight",
-							"evard's black tentacles"
-						],
-						"9": [
-							"killing curse|kcc",
-							"contagion"
-						]
-					}
-				},
-				{
-					"name": "White Coven",
-					"known": {
-						"1": [
-							"find familiar",
-							{
-								"choose": "level=0|class=occultist (kt:o)",
-								"count": 2
-							},
-							"binding curse|kcc",
-							"healing word"
-						],
-						"3": [
-							"calm emotions",
-							"hold person"
-						],
-						"5": [
-							"revivify",
-							"mass healing word"
-						],
-						"7": [
-							"banishment",
-							"otiluke's resilient sphere"
-						],
-						"9": [
-							"curse of impotence|kcc",
-							"summon celestial|tce"
-						]
-					}
-				},
-				{
-					"name": "Green Coven",
-					"known": {
-						"1": [
-							"find familiar",
-							{
-								"choose": "level=0|class=occultist (kt:o)",
-								"count": 2
-							},
-							"befuddling curse|kcc",
-							"entangle"
-						],
-						"3": [
-							"alter self",
-							"enlarge/reduce"
-						],
-						"5": [
-							"major image",
-							"summon fey|tce"
-						],
-						"7": [
-							"greater invisibility",
-							"polymorph"
-						],
-						"9": [
-							"swapping curse|kcc",
-							"wrath of nature|xge"
-						]
-					}
-				}
-			],
-			"subclassSpells": [
-				"find familiar"
-			]
-		},
-		{
 			"name": "Tradition of the Hedge Mage",
 			"shortName": "Hedge Mage",
 			"source": "KT-OCB",
@@ -6093,13 +5139,13 @@
 				"Cantrip Mastery|Occultist|KT-OCB|Hedge Mage|KT-OCB|14"
 			],
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"additionalSpells": [
 				{
 					"known": {
 						"1": [
 							{
-								"choose": "level=0|class=occultist (kt:o)",
+								"choose": "level=0|class=occultist (kcll)",
 								"count": 1
 							}
 						],
@@ -6180,7 +5226,7 @@
 				"Master of Prophecy|Occultist|KT-OCB|Oracle|KT-OCB|14"
 			],
 			"className": "Occultist",
-			"classSource": "KT-OCB",
+			"classSource": "KCLL",
 			"additionalSpells": [
 				{
 					"known": {
@@ -6245,59 +5291,7 @@
 				"Spiritual Empowerment|Occultist|KT-OCB|Shaman|KT-OCB|14"
 			],
 			"className": "Occultist",
-			"classSource": "KT-OCB"
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Occultist",
-			"source": "KT-OCB",
-			"entries": [
-				{
-					"name": "Occultist",
-					"type": "section",
-					"entries": [
-						"Wisps of purple smoke and dancing shadows rise from the ritual as the young human woman with strange magical markings tattooed across her hands whispers words in a language long forgotten, calling forth ancient powers.",
-						"The woods creak and bend, black wings beating as raven alights on the outstretch hand of an ancient elf, her eyes as black as the raven's. Soft words are spoken, and the elf nods in agreement.",
-						"A young orc lets out a bellowing roar and flames burst into a form taller than an ogre causing her enemies to flee. She holds up her spear and the flames pour from the roaring fire spirit to it, swirling about it, causing it to roar alight with searing magical flames.",
-						"The mysterious halfling woman gives a knowing smile, her unseeing eyes focused on you. She knows what you've come for, and tosses a handful of incense into the fire; what it is she sees in there? Your fate? Your destiny? As she speaks, it is only in riddle.",
-						"Occultists are those that follow the old ways, a path of ritual and wisdom long known yet oft forgotten. Rather than force magic to obey, they bind, twist, manipulate, and compromise with it. They follow ancient agreements and techniques to produce results that few fully understand, even those that use them, but they know it will work, for it always has.",
-						{
-							"type": "entries",
-							"name": "Ancient Traditions",
-							"entries": [
-								"Occultists are spell casters following legacies that go far back. While they may or may not be directly tutored or influence by another member of their tradition, their path to magic involves unearthing ancient secrets, old ways, and knowledge gleaned from spirits, ghosts, and elementals.",
-								"The often personify aspects of their magic in ways that other casters find odd, coaxing and manipulating magic forces by ancient laws and bargains. Occultists tread between the arcane and the divine, not necessarily worshiping any god, but treating gods and spirits alike with cautious respect for their domains, asking for the what they take, and carefully giving thought to their actions.",
-								"Each tradition that appears in the Occultist is an ancient legacy of magic, found deep within folklore and story. Every villager could tell you stories of Occultists and their traditions, and they are often seen in this context. Though villagers and the superstitious might fear them and their magic, they may be more likely to turn to them than a Wizard, for at least an Occultist makes sense to them, even if they are scared by their powers."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Spiritual Magic",
-							"entries": [
-								"A common thread of the magic wilded by the Occultist is the spiritual connection of it; the demi-divine nature of magic that taps into the weave of magic oft through the intermediaries of the power of gods, spirits, elementals, and more. An Occultist is fundamentally tied into the greater magical world, being neither a source of magic nor an academic researcher of it, but wielding it through intuition, cunning, and tradition.",
-								"Frequently an Occultist may call upon their magic through the mediums of spirits quite directly, even having names for the spirits it calls about to bring about certain magical effects; the verbal component of an Occultist spell might be the spirit they call upon to work the effect they wish, an invocation of their ancient bargain, or words in a language that binds or persuades."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating a Occultist",
-							"entries": [
-								"When creating an Occultist, the most important decision will be what Tradition you follow. Each Tradition of an Occultist is distinct with divergent flavor and calling upon a different aspect of folklore. Do you embody the associations or defy them? What led you to this path? Did you uncover your tradition on your own or were you taught by another?",
-								{
-									"type": "entries",
-									"name": "Quick Build",
-									"entries": [
-										"You can make an Occultist quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution or Dexterity. Second, choose the {@background hermit} background. Third, choose the {@spell poison spray} and {@spell produce flame} cantrips, along with the 1st-level spells {@spell burning hands}, {@spell cause fear|XGE}, {@spell cure wounds}, and {@spell tasha's hideous laughter}."
-									]
-								}
-							]
-						}
-					],
-					"source": "KT-OCB",
-					"page": 1
-				}
-			]
+			"classSource": "KCLL"
 		}
 	]
 }

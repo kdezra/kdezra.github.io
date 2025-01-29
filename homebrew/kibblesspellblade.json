@@ -36,7 +36,9 @@
 	"spell": [
 		{
 			"name": "Elemental Barrage",
-			"reprintedAs": [ "Elemental Barrage|KCLL" ],
+			"reprintedAs": [
+				"Elemental Barrage|KCLL"
+			],
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -88,7 +90,9 @@
 	"class": [
 		{
 			"name": "Spellblade",
-			"reprintedAs": ["spellblade|KCLL"],
+			"reprintedAs": [
+				"spellblade|KCLL"
+			],
 			"source": "KT-SbCB",
 			"hd": {
 				"number": 1,

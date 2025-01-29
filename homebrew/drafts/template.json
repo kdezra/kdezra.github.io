@@ -1,12 +1,10 @@
-
-
 {
 	"_meta": {
 		"sources": [
 			{
 				"json": "<abbr>",
 				"abbreviation": "<abbr>",
-				"full": "<fullname>", 
+				"full": "<fullname>",
 				"authors": [
 					"<author>"
 				],
@@ -23,26 +21,66 @@
 		"edition": "classic",
 		"status": "wip"
 	},
-	"action": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Action"],
-	"background": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Background"],
-	"boon": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Boon"],
-	"class": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Class"],
-	"condition": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Condition"],
-	"cult": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/Cult"],
-	"deity": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"disease": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"feat": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"hazard": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"item": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"language": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"object": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"optionalfeature": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"race": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"reward": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"subclass": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"table": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"variantrule": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
-	"vehicle": ["https://wiki.tercept.net/en/Homebrew/TableOfReference/"],
+	"action": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Action"
+	],
+	"background": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Background"
+	],
+	"boon": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Boon"
+	],
+	"class": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Class"
+	],
+	"condition": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Condition"
+	],
+	"cult": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/Cult"
+	],
+	"deity": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"disease": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"feat": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"hazard": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"item": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"language": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"object": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"optionalfeature": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"race": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"reward": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"subclass": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"table": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"variantrule": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
+	"vehicle": [
+		"https://wiki.tercept.net/en/Homebrew/TableOfReference/"
+	],
 	"spell": [
 		{
 			"name": "<spellname>",
@@ -129,4 +167,3 @@
 		}
 	]
 }
-
