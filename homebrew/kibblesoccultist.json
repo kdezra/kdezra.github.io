@@ -336,7 +336,9 @@
 	"item": [
 		{
 			"name": "Occult Fetish",
-			"reprintedAs": ["Occult Fetish|KCLL"],
+			"reprintedAs": [
+				"Occult Fetish|KCLL"
+			],
 			"source": "KT-OCB",
 			"page": 3,
 			"type": "SCF",
@@ -4096,7 +4098,9 @@
 	"spell": [
 		{
 			"name": "Vicious Hound",
-			"reprintedAs": [ "Vicious Hound|KCC" ],
+			"reprintedAs": [
+				"Vicious Hound|KCC"
+			],
 			"source": "KT-OCB",
 			"page": 32,
 			"level": 2,

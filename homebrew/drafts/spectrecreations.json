@@ -1,12 +1,10 @@
-
-
 {
 	"_meta": {
 		"sources": [
 			{
 				"json": "<abbr>",
 				"abbreviation": "<abbr>",
-				"full": "Spectre Creations", 
+				"full": "Spectre Creations",
 				"authors": [
 					"Spectre Creations"
 				],
@@ -96,4 +94,3 @@
 		}
 	]
 }
-

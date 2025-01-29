@@ -2212,7 +2212,7 @@
 				}
 			],
 			"entries": [
-				"You install clever, multifunctional components into your golem, allowing it to reduce its size. Your golem can collapse itself down, decreasing its size by one category—from Medium to Small, for example. While collapsed in this way, its speed is reduced by 10 feet. It takes 1 minute for your golem to collapse itself or revert to its normal size."
+				"You install clever, multifunctional components into your golem, allowing it to reduce its size. Your golem can collapse itself down, decreasing its size by one category\u2014from Medium to Small, for example. While collapsed in this way, its speed is reduced by 10 feet. It takes 1 minute for your golem to collapse itself or revert to its normal size."
 			]
 		},
 		{
@@ -2302,7 +2302,7 @@
 				}
 			],
 			"entries": [
-				"You build into your golem one oversized weapon. This weapon can be a martial melee weapon or an improved version of any natural weapon the golem has. The weapon's base damage dice are doubled—from 1d8 to 2d8, for example. The golem can only attack with this oversized weapon once per turn (making any additional attacks it can make using other weapons)."
+				"You build into your golem one oversized weapon. This weapon can be a martial melee weapon or an improved version of any natural weapon the golem has. The weapon's base damage dice are doubled\u2014from 1d8 to 2d8, for example. The golem can only attack with this oversized weapon once per turn (making any additional attacks it can make using other weapons)."
 			]
 		},
 		{
@@ -5734,7 +5734,7 @@
 					"type": "inset",
 					"name": "Large Inconvenience",
 					"entries": [
-						"This is an optional route that can offer substantial benefits; it would generally be advisable to not pull punches on the drawbacks of being a Large-sized creature (difficulty gaining cover, in tight areas, etc). Discuss what sort of challenges you might face with this. Consider if a Piloted Golem—essentially a walking war tank—would have trouble interacting with things created for Medium-sized creatures: ladders, potion bottles, and more."
+						"This is an optional route that can offer substantial benefits; it would generally be advisable to not pull punches on the drawbacks of being a Large-sized creature (difficulty gaining cover, in tight areas, etc). Discuss what sort of challenges you might face with this. Consider if a Piloted Golem\u2014essentially a walking war tank\u2014would have trouble interacting with things created for Medium-sized creatures: ladders, potion bottles, and more."
 					]
 				}
 			]
@@ -5866,7 +5866,7 @@
 				}
 			],
 			"entries": [
-				"You experiment on creating an adorable critter. You create—or modify—a Tiny CR 0 creature. This creature serves as a familiar as per the {@spell find familiar} spell, but doesn't disappear when reduced to zero hit points, and simply becomes unconscious. It can't fully die unless destroyed. If it starts its turn unconscious, it regains its full hit points and regains consciousness. It can do this a number of times equal to your Intelligence modifier.",
+				"You experiment on creating an adorable critter. You create\u2014or modify\u2014a Tiny CR 0 creature. This creature serves as a familiar as per the {@spell find familiar} spell, but doesn't disappear when reduced to zero hit points, and simply becomes unconscious. It can't fully die unless destroyed. If it starts its turn unconscious, it regains its full hit points and regains consciousness. It can do this a number of times equal to your Intelligence modifier.",
 				"You can resuscitate it (or rebuild it, as necessary) at the end of a short or long rest should anything untoward happen to it without expending a spell slot or material component. Its creature type is construct."
 			]
 		},
@@ -7248,7 +7248,7 @@
 			],
 			"entries": [
 				"Attunement, Cursed.",
-				"You create a ring that magically enhances your social abilities—some of them. When you make a Charisma ({@skill Deception} or {@skill Performance}) check, you gain the effects of the {@spell guidance} spell for the roll.",
+				"You create a ring that magically enhances your social abilities\u2014some of them. When you make a Charisma ({@skill Deception} or {@skill Performance}) check, you gain the effects of the {@spell guidance} spell for the roll.",
 				"{@b Curse:} When you make a Charisma ({@skill Persuasion}) check, roll a d4 and subtract it from the result."
 			]
 		},
@@ -7653,7 +7653,7 @@
 			],
 			"entries": [
 				"Attunement, Cursed",
-				"You create a worn magical item—such as a set of bracers, bands or a ring—that leverages a dark bargain. Souls for power... starting with bits of your own.",
+				"You create a worn magical item\u2014such as a set of bracers, bands or a ring\u2014that leverages a dark bargain. Souls for power... starting with bits of your own.",
 				"As a bonus action, you allow allow it to feed off your own soul. You can decrease your Charisma ability score by up to your proficiency bonus, increasing your Strength ability score by an amount equal to your decreased Charisma. You can't increase your Strength ability score beyond its normal maximum in this way. This lasts until you use an action to reclaim your Charisma from the item.",
 				"Whenever you slay a creature of CR 1/4 or higher, you gain +1 current and maximum Strength ability score. Both of these effects fade after 1 minute without killing a creature.",
 				"{@b Curse:} At the end of each turn your strength is increased by weapon, you take necrotic damage equal to 1 + the amount of additional maximum Strength you have gained. This damage can't be resisted."
@@ -9935,7 +9935,9 @@
 		},
 		{
 			"name": "Arcane Ablation",
-			"reprintedAs": [ "Arcane Ablation|KCC" ],
+			"reprintedAs": [
+				"Arcane Ablation|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -9991,7 +9993,9 @@
 		},
 		{
 			"name": "Arcane Weapon",
-			"reprintedAs": [ "Arcane Weapon|KCC" ],
+			"reprintedAs": [
+				"Arcane Weapon|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10038,7 +10042,9 @@
 		},
 		{
 			"name": "Awaken Rope",
-			"reprintedAs": [ "Awaken Rope|KCC" ],
+			"reprintedAs": [
+				"Awaken Rope|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10116,7 +10122,9 @@
 		},
 		{
 			"name": "Bond Item",
-			"reprintedAs": [ "Bond Item|KCC" ],
+			"reprintedAs": [
+				"Bond Item|KCC"
+			],
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -10164,7 +10172,9 @@
 		},
 		{
 			"name": "Fall",
-			"reprintedAs": [ "Fall|KCC" ],
+			"reprintedAs": [
+				"Fall|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10213,7 +10223,9 @@
 		},
 		{
 			"name": "Returning Weapon",
-			"reprintedAs": [ "Returning Weapon|KCC" ],
+			"reprintedAs": [
+				"Returning Weapon|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10257,7 +10269,9 @@
 		},
 		{
 			"name": "Seeking Projectile",
-			"reprintedAs": [ "Seeking Projectile|KCC" ],
+			"reprintedAs": [
+				"Seeking Projectile|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10302,7 +10316,9 @@
 		},
 		{
 			"name": "Unburden",
-			"reprintedAs": [ "Unburden|KCC" ],
+			"reprintedAs": [
+				"Unburden|KCC"
+			],
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -10346,7 +10362,9 @@
 		},
 		{
 			"name": "Imbue Luck",
-			"reprintedAs": [ "Imbue Luck|KCC" ],
+			"reprintedAs": [
+				"Imbue Luck|KCC"
+			],
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -10392,7 +10410,9 @@
 		},
 		{
 			"name": "Lightning Charged",
-			"reprintedAs": [ "Lightning Charged|KCC" ],
+			"reprintedAs": [
+				"Lightning Charged|KCC"
+			],
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -10451,7 +10471,9 @@
 		},
 		{
 			"name": "Thunderburst Mine",
-			"reprintedAs": [ "Thunderburst Mine|KCC" ],
+			"reprintedAs": [
+				"Thunderburst Mine|KCC"
+			],
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -10507,7 +10529,9 @@
 		},
 		{
 			"name": "Dispel Construct",
-			"reprintedAs": [ "Dispel Construct|KCC" ],
+			"reprintedAs": [
+				"Dispel Construct|KCC"
+			],
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -10551,7 +10575,9 @@
 		},
 		{
 			"name": "Fireburst Mine",
-			"reprintedAs": [ "Fireburst Mine|KCC" ],
+			"reprintedAs": [
+				"Fireburst Mine|KCC"
+			],
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -10607,7 +10633,9 @@
 		},
 		{
 			"name": "Repair",
-			"reprintedAs": [ "Repair|KCC" ],
+			"reprintedAs": [
+				"Repair|KCC"
+			],
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -10661,7 +10689,9 @@
 		},
 		{
 			"name": "Vorpal Weapon",
-			"reprintedAs": [ "Vorpal Weapon|KCC" ],
+			"reprintedAs": [
+				"Vorpal Weapon|KCC"
+			],
 			"level": 5,
 			"school": "T",
 			"time": [

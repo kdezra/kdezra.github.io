@@ -1,179 +1,179 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "KT-WB",
-                "abbreviation": "KT-WB",
-                "full": "KibblesTasty: Weapon Builder",
-                "authors": [
-                    "KibblesTasty"
-                ],
-                "convertedBy": [
-                    "kdezra"
-                ],
-                "version": "1",
-                "url": "https://www.gmbinder.com/share/-LryJUFU_dWwhVBMfRdb",
-                "color": "B97A57"
-            }
-        ]
-    },
-    "item": [
-        {
-            "name": "Finesse Spear",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "value": 100,
-            "weight": 2,
-            "dmg1": "1d4",
-            "dmg2": "1d6",
-            "dmgType": "P",
-            "weapon": true,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "V"
-            ]
-        },
-        {
-            "name": "Sturdy 10-Foot Pole",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "value": 10,
-            "weight": 9,
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "weapon": true,
-            "weaponCategory": "simple",
-            "property": [
-                "R",
-                "2H"
-            ]
-        },
-        {
-            "name": "Chain",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "value": 500,
-            "weight": 10,
-            "dmg1": "1d4",
-            "dmgType": "B",
-            "weapon": true,
-            "weaponCategory": "simple",
-            "property": [
-                "R"
-            ]
-        },
-        {
-            "name": "Heavy Greatclub",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "value": 30,
-            "weight": 15,
-            "dmg1": "1d10",
-            "dmgType": "B",
-            "weapon": true,
-            "weaponCategory": "simple",
-            "property": [
-                "2H",
-                "H"
-            ]
-        },
-        {
-            "name": "War Spear",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 500,
-            "dmg1": "1d8",
-            "dmg2": "1d10",
-            "dmgType": "P",
-            "weight": 2,
-            "property": [
-                "V"
-            ]
-        },
-        {
-            "name": "Long Chain Flail",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 1500,
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "weight": 12,
-            "property": [
-                "R"
-            ]
-        },
-        {
-            "name": "Finesse Glaive",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 2000,
-            "dmg1": "1d4",
-            "dmg2": "1d6",
-            "dmgType": "S",
-            "weight": 5,
-            "property": [
-                "V",
-                "R",
-                "F"
-            ]
-        },
-        {
-            "name": "Saber",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 2500,
-            "dmg1": "1d8",
-            "dmgType": "S",
-            "weight": 2,
-            "property": [
-                "F"
-            ]
-        },
-        {
-            "name": "Broadsword",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 1500,
-            "dmg1": "2d4",
-            "dmgType": "S",
-            "weight": 3
-        },
-        {
-            "name": "Katana",
-            "source": "KT-WB",
-            "type": "M",
-            "rarity": "none",
-            "weapon": true,
-            "weaponCategory": "martial",
-            "value": 2000,
-            "dmg1": "1d6",
-            "dmg2": "2d4",
-            "dmgType": "S",
-            "weight": 2,
-            "property": [
-                "F",
-                "V"
-            ]
-        }
-    ]
+	"_meta": {
+		"sources": [
+			{
+				"json": "KT-WB",
+				"abbreviation": "KT-WB",
+				"full": "KibblesTasty: Weapon Builder",
+				"authors": [
+					"KibblesTasty"
+				],
+				"convertedBy": [
+					"kdezra"
+				],
+				"version": "1",
+				"url": "https://www.gmbinder.com/share/-LryJUFU_dWwhVBMfRdb",
+				"color": "B97A57"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Finesse Spear",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"V"
+			]
+		},
+		{
+			"name": "Sturdy 10-Foot Pole",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"value": 10,
+			"weight": 9,
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"property": [
+				"R",
+				"2H"
+			]
+		},
+		{
+			"name": "Chain",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"value": 500,
+			"weight": 10,
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"property": [
+				"R"
+			]
+		},
+		{
+			"name": "Heavy Greatclub",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"value": 30,
+			"weight": 15,
+			"dmg1": "1d10",
+			"dmgType": "B",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"property": [
+				"2H",
+				"H"
+			]
+		},
+		{
+			"name": "War Spear",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 500,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "P",
+			"weight": 2,
+			"property": [
+				"V"
+			]
+		},
+		{
+			"name": "Long Chain Flail",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 1500,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weight": 12,
+			"property": [
+				"R"
+			]
+		},
+		{
+			"name": "Finesse Glaive",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 2000,
+			"dmg1": "1d4",
+			"dmg2": "1d6",
+			"dmgType": "S",
+			"weight": 5,
+			"property": [
+				"V",
+				"R",
+				"F"
+			]
+		},
+		{
+			"name": "Saber",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 2500,
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"weight": 2,
+			"property": [
+				"F"
+			]
+		},
+		{
+			"name": "Broadsword",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 1500,
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"weight": 3
+		},
+		{
+			"name": "Katana",
+			"source": "KT-WB",
+			"type": "M",
+			"rarity": "none",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"value": 2000,
+			"dmg1": "1d6",
+			"dmg2": "2d4",
+			"dmgType": "S",
+			"weight": 2,
+			"property": [
+				"F",
+				"V"
+			]
+		}
+	]
 }
